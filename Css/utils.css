@@ -1,0 +1,173 @@
+/**********************************************************
+  Utility Classes Start
+**********************************************************/
+
+.d-flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.flex-dir-col {
+    flex-direction: column;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.justify-between {
+    justify-content: space-between;
+}
+
+.align-center {
+    align-items: center;
+}
+
+.padding-inline {
+    padding-inline: var(--pad-inline);
+}
+
+.padding-block {
+    padding-block: var(--pad-block);
+}
+
+.theme-text-color {
+    color: var(--active-theme-color);
+}
+
+.content-center {
+    display: grid;
+    place-content: center;
+}
+
+.primary-btn,
+.secondary-btn {
+    padding: 1rem 2rem;
+    font-size: 1.4rem;
+    font-weight: 600;
+    letter-spacing: 1px;
+    border: .2rem solid var(--active-theme-color);
+    position: relative;
+    text-transform: capitalize;
+}
+
+.primary-btn {
+    box-shadow: 0 0 1rem var(--active-two-mode-shadow);
+    color: var(--active-pure-color);
+}
+
+.secondary-btn {
+    border-color: var(--active-dark-font-color);
+    box-shadow: 0 0 .8rem var(--active-dark-font-color);
+    color: var(--active-pure-color);
+}
+
+@media (hover:hover) {
+
+    .secondary-btn::before {
+        content: "";
+        position: absolute;
+        z-index: -1;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        transition: all .3s linear;
+        background-color: var(--active-dark-font-color);
+    }
+
+    .primary-btn::before {
+        content: "";
+        position: absolute;
+        z-index: -1;
+        top: 0;
+        right: 0;
+        height: 100%;
+        width: 100%;
+        transition: all .3s linear;
+        background-color: var(--active-theme-color);
+    }
+
+    .primary-btn:hover {
+        color: var(--active-theme-color);
+    }
+
+    .secondary-btn:hover {
+        color: var(--active-dark-font-color);
+    }
+
+    .primary-btn:hover::before,
+    .secondary-btn:hover::before {
+        width: 0;
+    }
+}
+
+.sub-sec-heading {
+    font-size: 2.8rem;
+    color: var(--active-dark-font-color);
+    margin-bottom: 3rem;
+    letter-spacing: .3px;
+    word-spacing: 3px;
+}
+
+.sub-sec-margin-bottom {
+    margin-bottom: 8rem;
+}
+
+.light-mode {
+    --active-pure-color: var(--pure-white);
+    --active-primary-bg: var(--l-primary-bg);
+    --active-secondary-bg: var(--l-secondary-bg);
+    --active-dark-font-color: var(--l-dark-font-color);
+    --active-light-font-color: var(--l-light-font-color);
+    --active-one-mode-shadow: var(--l-one-mode-shadow);
+    --active-two-mode-shadow: var(--l-two-mode-shadow);
+    --active-border-color: var(--l-border-color);
+}
+
+/**********************************************************
+    Frequently Used Components In This Website Start
+**********************************************************/
+
+/**********************************************************
+    Pages Header
+**********************************************************/
+.page-header {
+  margin-bottom: 6rem;
+}
+
+.page-header h1 {
+  font-size: 4rem;
+  color: var(--active-dark-font-color);
+  position: relative;
+  padding-bottom: .8rem;
+}
+
+.page-header h1::before,
+.page-header h1::after {
+  content: "";
+  position: absolute;
+  height: .5rem;
+  border-radius: .3rem;
+  left: 0;
+  background-color: var(--active-theme-color);
+}
+
+.page-header h1::before {
+  width: 6rem;
+  bottom: 0;
+}
+
+.page-header h1::after {
+  width: 4rem;
+  bottom: -1rem;
+}
+
+/**********************************************************
+    Frequently Used Components In This Website End
+**********************************************************/
+
+
+/**********************************************************
+    Utility Classes End
+**********************************************************/

@@ -276,7 +276,7 @@ const allCategoriesProjectsDetails = [
       {
         projectThumbnailSrc: "Assets/Images/Neogcamp Projects Thumbnails/thumbnail-1.jpg",
         projectTitle: "how well you know me",
-        viewProjectLiveUrl: "https://replit.com/@webwithaman/how?embed=1&output=1",
+        viewProjectLiveUrl: "https://replit.com/@webwithaman/how-well-you-know-me?embed=1&output=1",
         viewProjectCodeUrl: "https://github.com/WebWithAman/how-well-you-know-me/tree/main"
       },
       {

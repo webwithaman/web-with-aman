@@ -295,9 +295,9 @@ const allCategoriesProjectsDetails = [
         projectTitle: "animated auto scrolling slider",
         viewProjectLiveUrl: "https://animatedautoscrollingsliderbyaman.netlify.app",
         viewProjectCodeUrl: "https://github.com/WebWithAman/Animated-Auto-Scrolling-Slider"
-      },
+      }
     ]
-  },
+  }
 ];
 
 

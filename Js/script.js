@@ -200,74 +200,85 @@ const allCategoriesProjectsDetails = [
     ]
   },
   {
-    projectsCategory: "html css and js",
+    projectsCategory: "html css js",
     projectsList: [
       {
-        projectThumbnailSrc: "Assets/Images/Html Css And Js Projects Thumbnails/thumbnail-1.jpg",
+        projectThumbnailSrc: "Assets/Images/Html Css Js Projects Thumbnails/thumbnail-1.jpg",
         projectTitle: "super shoes store",
         viewProjectLiveUrl: "https://supershoesstore.netlify.app",
         viewProjectCodeUrl: "https://github.com/WebWithAman/Super-Shoes-Store"
       },
       {
-        projectThumbnailSrc: "Assets/Images/Html Css And Js Projects Thumbnails/thumbnail-2.jpg",
+        projectThumbnailSrc: "Assets/Images/Html Css Js Projects Thumbnails/thumbnail-2.jpg",
         projectTitle: "gym and fitness",
         viewProjectLiveUrl: "https://gymandfitnesscenter.netlify.app",
         viewProjectCodeUrl: "https://github.com/WebWithAman/Gym-And-Fitness-Responsive-Website"
       },
       {
-        projectThumbnailSrc: "Assets/Images/Html Css And Js Projects Thumbnails/thumbnail-3.jpg",
+        projectThumbnailSrc: "Assets/Images/Html Css Js Projects Thumbnails/thumbnail-3.jpg",
         projectTitle: "tour and travels",
         viewProjectLiveUrl: "https://tourandtravelsagency.netlify.app",
         viewProjectCodeUrl: "https://github.com/WebWithAman/Tour-And-Travels-Website"
       },
       {
-        projectThumbnailSrc: "Assets/Images/Html Css And Js Projects Thumbnails/thumbnail-4.jpg",
+        projectThumbnailSrc: "Assets/Images/Html Css Js Projects Thumbnails/thumbnail-4.jpg",
         projectTitle: "animated cartoon portfolio",
         viewProjectLiveUrl: "https://animatedcartoonportfolio.netlify.app",
         viewProjectCodeUrl: "https://github.com/WebWithAman/Animated-Cartoon-Portfolio"
       },
       {
-        projectThumbnailSrc: "Assets/Images/Html Css And Js Projects Thumbnails/thumbnail-5.jpg",
+        projectThumbnailSrc: "Assets/Images/Html Css Js Projects Thumbnails/thumbnail-5.jpg",
         projectTitle: "photohd studio",
         viewProjectLiveUrl: "https://photohdstudio.netlify.app",
         viewProjectCodeUrl: "https://github.com/WebWithAman/PhotoHD-Studio-Website/tree/main"
       },
       {
-        projectThumbnailSrc: "Assets/Images/Html Css And Js Projects Thumbnails/thumbnail-6.svg",
+        projectThumbnailSrc: "Assets/Images/Html Css Js Projects Thumbnails/thumbnail-6.svg",
         projectTitle: "code with aman",
         viewProjectLiveUrl: "https://codewithaman06.netlify.app",
         viewProjectCodeUrl: "https://github.com/WebWithAman/Code-With-Aman"
       },
       {
-        projectThumbnailSrc: "Assets/Images/Html Css And Js Projects Thumbnails/thumbnail-7.jpg",
+        projectThumbnailSrc: "Assets/Images/Html Css Js Projects Thumbnails/thumbnail-7.jpg",
         projectTitle: "marketing with aman",
         viewProjectLiveUrl: "https://marketingwithaman.netlify.app",
         viewProjectCodeUrl: "https://github.com/WebWithAman/Marketing-Agency-Website"
       },
       {
-        projectThumbnailSrc: "Assets/Images/Html Css And Js Projects Thumbnails/thumbnail-8.jpg",
+        projectThumbnailSrc: "Assets/Images/Html Css Js Projects Thumbnails/thumbnail-8.jpg",
         projectTitle: "introspect website",
         viewProjectLiveUrl: "https://introspectwebsite.netlify.app",
         viewProjectCodeUrl: "https://github.com/WebWithAman/introspect-website"
       },
       {
-        projectThumbnailSrc: "Assets/Images/Html Css And Js Projects Thumbnails/thumbnail-9.jpg",
+        projectThumbnailSrc: "Assets/Images/Html Css Js Projects Thumbnails/thumbnail-9.jpg",
         projectTitle: "online education institute",
         viewProjectLiveUrl: "https://onlineeducationinstitute.netlify.app",
         viewProjectCodeUrl: "https://github.com/WebWithAman/Online-Education-Institute/tree/main"
       },
       {
-        projectThumbnailSrc: "Assets/Images/Html Css And Js Projects Thumbnails/thumbnail-10.jpg",
+        projectThumbnailSrc: "Assets/Images/Html Css Js Projects Thumbnails/thumbnail-10.jpg",
         projectTitle: "portfolio landing page",
         viewProjectLiveUrl: "https://webwithamanlandingpage.netlify.app",
         viewProjectCodeUrl: "https://github.com/WebWithAman/Portfolio-Landing-Page"
       },
       {
-        projectThumbnailSrc: "Assets/Images/Html Css And Js Projects Thumbnails/thumbnail-11.jpg",
+        projectThumbnailSrc: "Assets/Images/Html Css Js Projects Thumbnails/thumbnail-11.jpg",
         projectTitle: "netron website",
         viewProjectLiveUrl: "https://netronwebsite.netlify.app",
         viewProjectCodeUrl: "https://github.com/WebWithAman/Netron-Website"
       }
+    ]
+  },
+  {
+    projectsCategory: "html css js mini",
+    projectsList: [
+      {
+        projectThumbnailSrc: "Assets/Images/Html Css Js Mini Projects Thumbnails/thumbnail-1.jpg",
+        projectTitle: "animated auto scrolling slider",
+        viewProjectLiveUrl: "https://animatedautoscrollingsliderbyaman.netlify.app",
+        viewProjectCodeUrl: "https://github.com/WebWithAman/Animated-Auto-Scrolling-Slider"
+      },
     ]
   },
   {

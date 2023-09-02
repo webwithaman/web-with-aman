@@ -301,6 +301,7 @@ const allCategoriesProjectsDetails = [
 ];
 
 
+
 // Get All Projects Container to Append and Show Projects
 const allProjectsContainer = document.querySelector(".all-projects-container");
 

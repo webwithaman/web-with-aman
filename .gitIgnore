@@ -1,13 +1,1 @@
- learningWhileThisProject.txt
- 
- {
-    projectsCategory: "html css js mini",
-    projectsList: [
-      {
-        projectThumbnailSrc: "Assets/Images/Html Css Js Mini Projects Thumbnails/thumbnail-1.jpg",
-        projectTitle: "animated auto scrolling slider",
-        viewProjectLiveUrl: "https://animatedautoscrollingsliderbyaman.netlify.app",
-        viewProjectCodeUrl: "https://github.com/WebWithAman/Animated-Auto-Scrolling-Slider"
-      },
-    ]
-  },
+learningWhileThisProject.txt

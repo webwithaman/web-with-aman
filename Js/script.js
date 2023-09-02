@@ -271,6 +271,17 @@ const allCategoriesProjectsDetails = [
     ]
   },
   {
+    projectsCategory: "html css js mini",
+    projectsList: [
+      {
+        projectThumbnailSrc: "Assets/Images/Html Css Js Mini Projects Thumbnails/thumbnail-1.jpg",
+        projectTitle: "animated auto scrolling slider",
+        viewProjectLiveUrl: "https://animatedautoscrollingsliderbyaman.netlify.app",
+        viewProjectCodeUrl: "https://github.com/WebWithAman/Animated-Auto-Scrolling-Slider"
+      }
+    ]
+  },
+  {
     projectsCategory: "neogcamp",
     projectsList: [
       {
@@ -284,17 +295,6 @@ const allCategoriesProjectsDetails = [
         projectTitle: "cli quiz app",
         viewProjectLiveUrl: "https://replit.com/@webwithaman/cli-quiz-app?embed=1&output=1",
         viewProjectCodeUrl: "https://github.com/WebWithAman/cli-quiz-app/tree/main"
-      }
-    ]
-  },
-  {
-    projectsCategory: "html css js mini",
-    projectsList: [
-      {
-        projectThumbnailSrc: "Assets/Images/Html Css Js Mini Projects Thumbnails/thumbnail-1.jpg",
-        projectTitle: "animated auto scrolling slider",
-        viewProjectLiveUrl: "https://animatedautoscrollingsliderbyaman.netlify.app",
-        viewProjectCodeUrl: "https://github.com/WebWithAman/Animated-Auto-Scrolling-Slider"
       }
     ]
   }

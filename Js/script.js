@@ -260,7 +260,7 @@ const allCategoriesProjectsDetails = [
         projectThumbnailSrc: "Assets/Images/Html Css Js Projects Thumbnails/thumbnail-10.jpg",
         projectTitle: "portfolio landing page",
         viewProjectLiveUrl: "https://webwithamanlandingpage.netlify.app",
-        viewProjectCodeUrl: "https://github.com/WebWithAman/Portfolio-Landing-Page"
+        viewProjectCodeUrl: "https://github.com/WebWithAman/portfolio-landing-page"
       },
       {
         projectThumbnailSrc: "Assets/Images/Html Css Js Projects Thumbnails/thumbnail-11.jpg",
@@ -277,7 +277,7 @@ const allCategoriesProjectsDetails = [
         projectThumbnailSrc: "Assets/Images/Html Css Js Mini Projects Thumbnails/thumbnail-1.jpg",
         projectTitle: "animated auto scrolling slider",
         viewProjectLiveUrl: "https://animatedautoscrollingsliderbyaman.netlify.app",
-        viewProjectCodeUrl: "https://github.com/WebWithAman/Animated-Auto-Scrolling-Slider"
+        viewProjectCodeUrl: "https://github.com/WebWithAman/animated-auto-scrolling-slider"
       },
       {
         projectThumbnailSrc: "Assets/Images/Html Css Js Mini Projects Thumbnails/thumbnail-2.jpg",

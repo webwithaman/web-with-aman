@@ -278,6 +278,18 @@ const allCategoriesProjectsDetails = [
         projectTitle: "animated auto scrolling slider",
         viewProjectLiveUrl: "https://animatedautoscrollingsliderbyaman.netlify.app",
         viewProjectCodeUrl: "https://github.com/WebWithAman/Animated-Auto-Scrolling-Slider"
+      },
+      {
+        projectThumbnailSrc: "Assets/Images/Html Css Js Mini Projects Thumbnails/thumbnail-2.jpg",
+        projectTitle: "bouncing balls",
+        viewProjectLiveUrl: "https://bouncingballsbyaman.netlify.app",
+        viewProjectCodeUrl: "https://github.com/WebWithAman/bouncing-balls/tree/main"
+      },
+      {
+        projectThumbnailSrc: "Assets/Images/Html Css Js Mini Projects Thumbnails/thumbnail-3.jpg",
+        projectTitle: "surprising card",
+        viewProjectLiveUrl: "https://surprisingcardhoverbyaman.netlify.app",
+        viewProjectCodeUrl: "https://github.com/WebWithAman/surprising-card-hover"
       }
     ]
   },

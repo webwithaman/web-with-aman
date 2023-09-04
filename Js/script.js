@@ -299,9 +299,15 @@ const allCategoriesProjectsDetails = [
       },
       {
         projectThumbnailSrc: "Assets/Images/Html Css Js Mini Projects Thumbnails/thumbnail-5.jpg",
-        projectTitle: "Amazing Buttons",
+        projectTitle: "amazing buttons",
         viewProjectLiveUrl: "https://amazingbuttonsbyaman.netlify.app",
         viewProjectCodeUrl: "https://github.com/WebWithAman/buttons-with-amazing-hover-effects"
+      },
+      {
+        projectThumbnailSrc: "Assets/Images/Html Css Js Mini Projects Thumbnails/thumbnail-6.jpg",
+        projectTitle: "pre-loaders",
+        viewProjectLiveUrl: "https://preloadersbyaman.netlify.app",
+        viewProjectCodeUrl: "https://github.com/WebWithAman/pre-loaders"
       }
     ]
   },

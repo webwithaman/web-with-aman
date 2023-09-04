@@ -290,6 +290,12 @@ const allCategoriesProjectsDetails = [
         projectTitle: "surprising card",
         viewProjectLiveUrl: "https://surprisingcardhoverbyaman.netlify.app",
         viewProjectCodeUrl: "https://github.com/WebWithAman/surprising-card-hover"
+      },
+      {
+        projectThumbnailSrc: "Assets/Images/Html Css Js Mini Projects Thumbnails/thumbnail-4.jpg",
+        projectTitle: "Collapsing card",
+        viewProjectLiveUrl: "https://cardcollapsinghoverbyaman.netlify.app",
+        viewProjectCodeUrl: "https://github.com/WebWithAman/card-collapsing-hover-effect/tree/main"
       }
     ]
   },

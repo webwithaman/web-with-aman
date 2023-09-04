@@ -304,18 +304,23 @@ const allCategoriesProjectsDetails = [
         viewProjectCodeUrl: "https://github.com/WebWithAman/bouncing-balls/tree/main"
       },
       {
-        projectThumbnailSrc: "Assets/Images/Html Css Js Mini Projects Thumbnails/thumbnail-4.jpg",
+        projectThumbnailSrc: "Assets/Images/Html Css Js Mini Projects Thumbnails/thumbnail-3.jpg",
         projectTitle: "Collapsing card",
         viewProjectLiveUrl: "https://cardcollapsinghoverbyaman.netlify.app",
         viewProjectCodeUrl: "https://github.com/WebWithAman/card-collapsing-hover-effect/tree/main"
       },
       {
-        projectThumbnailSrc: "Assets/Images/Html Css Js Mini Projects Thumbnails/thumbnail-3.jpg",
+        projectThumbnailSrc: "Assets/Images/Html Css Js Mini Projects Thumbnails/thumbnail-4.jpg",
         projectTitle: "surprising card",
         viewProjectLiveUrl: "https://surprisingcardhoverbyaman.netlify.app",
         viewProjectCodeUrl: "https://github.com/WebWithAman/surprising-card-hover"
+      },
+      {
+        projectThumbnailSrc: "Assets/Images/Html Css Js Mini Projects Thumbnails/thumbnail-5.jpg",
+        projectTitle: "Amazing Buttons",
+        viewProjectLiveUrl: "https://amazingbuttonsbyaman.netlify.app",
+        viewProjectCodeUrl: "https://github.com/WebWithAman/buttons-with-amazing-hover-effects"
       }
-   
     ]
   }
 ];

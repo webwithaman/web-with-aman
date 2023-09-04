@@ -271,24 +271,6 @@ const allCategoriesProjectsDetails = [
     ]
   },
   {
-    projectsCategory: "neogcamp",
-    projectsList: [
-      {
-        projectThumbnailSrc: "Assets/Images/Neogcamp Projects Thumbnails/thumbnail-1.jpg",
-        projectTitle: "how well you know me",
-        viewProjectLiveUrl: "https://replit.com/@webwithaman/how-well-you-know-me-quiz-app?embed=1&output=1",
-        viewProjectCodeUrl: "https://github.com/WebWithAman/how-well-you-know-me/tree/main"
-      },
-      {
-        projectThumbnailSrc: "Assets/Images/Neogcamp Projects Thumbnails/thumbnail-2.jpg",
-        projectTitle: "cli quiz app",
-        viewProjectLiveUrl: "https://replit.com/@webwithaman/cli-quiz-app?embed=1&output=1",
-        viewProjectCodeUrl: "https://github.com/WebWithAman/cli-quiz-app/tree/main"
-      }
-    ]
-
-  },
-  {
     projectsCategory: "html css js mini",
     projectsList: [
       {
@@ -322,7 +304,26 @@ const allCategoriesProjectsDetails = [
         viewProjectCodeUrl: "https://github.com/WebWithAman/buttons-with-amazing-hover-effects"
       }
     ]
+  },
+  {
+    projectsCategory: "neogcamp",
+    projectsList: [
+      {
+        projectThumbnailSrc: "Assets/Images/Neogcamp Projects Thumbnails/thumbnail-1.jpg",
+        projectTitle: "how well you know me",
+        viewProjectLiveUrl: "https://replit.com/@webwithaman/how-well-you-know-me-quiz-app?embed=1&output=1",
+        viewProjectCodeUrl: "https://github.com/WebWithAman/how-well-you-know-me/tree/main"
+      },
+      {
+        projectThumbnailSrc: "Assets/Images/Neogcamp Projects Thumbnails/thumbnail-2.jpg",
+        projectTitle: "cli quiz app",
+        viewProjectLiveUrl: "https://replit.com/@webwithaman/cli-quiz-app?embed=1&output=1",
+        viewProjectCodeUrl: "https://github.com/WebWithAman/cli-quiz-app/tree/main"
+      }
+    ]
+
   }
+ 
 ];
 
 

@@ -254,7 +254,7 @@ const allCategoriesProjectsDetails = [
         projectThumbnailSrc: "Assets/Images/Html Css Js Projects Thumbnails/thumbnail-9.jpg",
         projectTitle: "online education institute",
         viewProjectLiveUrl: "https://onlineeducationinstitute.netlify.app",
-        viewProjectCodeUrl: "https://github.com/WebWithAman/Online-Education-Institute/tree/main"
+        viewProjectCodeUrl: "https://github.com/WebWithAman/online-education-institute"
       },
       {
         projectThumbnailSrc: "Assets/Images/Html Css Js Projects Thumbnails/thumbnail-10.jpg",
@@ -311,7 +311,6 @@ const allCategoriesProjectsDetails = [
     ]
   }
 ];
-
 
 
 // Get All Projects Container to Append and Show Projects

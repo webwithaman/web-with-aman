@@ -287,6 +287,7 @@ const allCategoriesProjectsDetails = [
         viewProjectCodeUrl: "https://github.com/WebWithAman/cli-quiz-app/tree/main"
       }
     ]
+    
   },
   {
     projectsCategory: "html css js mini",

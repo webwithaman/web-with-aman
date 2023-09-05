@@ -312,6 +312,24 @@ const allCategoriesProjectsDetails = [
     ]
   },
   {
+    projectsCategory: "javascript",
+    projectsList: [
+      {
+        projectThumbnailSrc: "Assets/Images/Javascript Projects Thumbnails/thumbnail-1.jpg",
+        projectTitle: "typing speed tester",
+        viewProjectLiveUrl: "https://typingwithaman.netlify.app",
+        viewProjectCodeUrl: "https://github.com/WebWithAman/typing-speed-tester/tree/main"
+      },
+      {
+        projectThumbnailSrc: "Assets/Images/Javascript Projects Thumbnails/thumbnail-2.jpg",
+        projectTitle: "vehicles racing animation",
+        viewProjectLiveUrl: "https://racinganimationbyaman.netlify.app",
+        viewProjectCodeUrl: "https://github.com/WebWithAman/vehicles-racing-animation/tree/main"
+      }
+    ]
+
+  },
+  {
     projectsCategory: "neogcamp",
     projectsList: [
       {
@@ -329,7 +347,6 @@ const allCategoriesProjectsDetails = [
     ]
 
   }
- 
 ];
 
 

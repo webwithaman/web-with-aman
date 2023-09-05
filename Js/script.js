@@ -230,7 +230,7 @@ const allCategoriesProjectsDetails = [
         projectThumbnailSrc: "Assets/Images/Html Css Js Projects Thumbnails/thumbnail-5.jpg",
         projectTitle: "photohd studio",
         viewProjectLiveUrl: "https://photohdstudio.netlify.app",
-        viewProjectCodeUrl: "https://github.com/WebWithAman/PhotoHD-Studio-Website/tree/main"
+        viewProjectCodeUrl: "https://github.com/WebWithAman/PhotoHD-Studio-Website"
       },
       {
         projectThumbnailSrc: "Assets/Images/Html Css Js Projects Thumbnails/thumbnail-6.svg",
@@ -283,13 +283,13 @@ const allCategoriesProjectsDetails = [
         projectThumbnailSrc: "Assets/Images/Html Css Js Mini Projects Thumbnails/thumbnail-2.jpg",
         projectTitle: "bouncing balls",
         viewProjectLiveUrl: "https://bouncingballsbyaman.netlify.app",
-        viewProjectCodeUrl: "https://github.com/WebWithAman/bouncing-balls/tree/main"
+        viewProjectCodeUrl: "https://github.com/WebWithAman/bouncing-balls"
       },
       {
         projectThumbnailSrc: "Assets/Images/Html Css Js Mini Projects Thumbnails/thumbnail-3.jpg",
         projectTitle: "Collapsing card",
         viewProjectLiveUrl: "https://cardcollapsinghoverbyaman.netlify.app",
-        viewProjectCodeUrl: "https://github.com/WebWithAman/card-collapsing-hover-effect/tree/main"
+        viewProjectCodeUrl: "https://github.com/WebWithAman/card-collapsing-hover-effect"
       },
       {
         projectThumbnailSrc: "Assets/Images/Html Css Js Mini Projects Thumbnails/thumbnail-4.jpg",
@@ -318,13 +318,13 @@ const allCategoriesProjectsDetails = [
         projectThumbnailSrc: "Assets/Images/Javascript Projects Thumbnails/thumbnail-1.jpg",
         projectTitle: "typing speed tester",
         viewProjectLiveUrl: "https://typingwithaman.netlify.app",
-        viewProjectCodeUrl: "https://github.com/WebWithAman/typing-speed-tester/tree/main"
+        viewProjectCodeUrl: "https://github.com/WebWithAman/typing-speed-tester"
       },
       {
         projectThumbnailSrc: "Assets/Images/Javascript Projects Thumbnails/thumbnail-2.jpg",
         projectTitle: "vehicles racing animation",
         viewProjectLiveUrl: "https://racinganimationbyaman.netlify.app",
-        viewProjectCodeUrl: "https://github.com/WebWithAman/vehicles-racing-animation/tree/main"
+        viewProjectCodeUrl: "https://github.com/WebWithAman/vehicles-racing-animation"
       }
     ]
 
@@ -336,13 +336,13 @@ const allCategoriesProjectsDetails = [
         projectThumbnailSrc: "Assets/Images/Neogcamp Projects Thumbnails/thumbnail-1.jpg",
         projectTitle: "how well you know me",
         viewProjectLiveUrl: "https://replit.com/@webwithaman/how-well-you-know-me-quiz-app?embed=1&output=1",
-        viewProjectCodeUrl: "https://github.com/WebWithAman/how-well-you-know-me/tree/main"
+        viewProjectCodeUrl: "https://github.com/WebWithAman/how-well-you-know-me"
       },
       {
         projectThumbnailSrc: "Assets/Images/Neogcamp Projects Thumbnails/thumbnail-2.jpg",
         projectTitle: "cli quiz app",
         viewProjectLiveUrl: "https://replit.com/@webwithaman/cli-quiz-app?embed=1&output=1",
-        viewProjectCodeUrl: "https://github.com/WebWithAman/cli-quiz-app/tree/main"
+        viewProjectCodeUrl: "https://github.com/WebWithAman/cli-quiz-app"
       }
     ]
 

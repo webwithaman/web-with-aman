@@ -308,6 +308,18 @@ const allCategoriesProjectsDetails = [
         projectTitle: "pre-loaders",
         viewProjectLiveUrl: "https://preloadersbyaman.netlify.app",
         viewProjectCodeUrl: "https://github.com/WebWithAman/pre-loaders"
+      },
+      {
+        projectThumbnailSrc: "Assets/Images/Html Css Js Mini Projects Thumbnails/thumbnail-7.svg",
+        projectTitle: "interactive image slider",
+        viewProjectLiveUrl: "https://interactiveimagesliderbyaman.netlify.app",
+        viewProjectCodeUrl: "https://github.com/WebWithAman/interactive-image-slider"
+      },
+      {
+        projectThumbnailSrc: "Assets/Images/Html Css Js Mini Projects Thumbnails/thumbnail-8.jpg",
+        projectTitle: "animated radio buttons",
+        viewProjectLiveUrl: "https://animatedradiosbyaman.netlify.app",
+        viewProjectCodeUrl: "https://github.com/WebWithAman/animated-radio-buttons"
       }
     ]
   },

@@ -275,9 +275,9 @@ const allCategoriesProjectsDetails = [
     projectsList: [
       {
         projectThumbnailSrc: "Assets/Images/Html Css Js Mini Projects Thumbnails/thumbnail-1.jpg",
-        projectTitle: "animated auto scrolling slider",
-        viewProjectLiveUrl: "https://animatedautoscrollingsliderbyaman.netlify.app",
-        viewProjectCodeUrl: "https://github.com/WebWithAman/animated-auto-scrolling-slider"
+        projectTitle: "animated and custom slider",
+        viewProjectLiveUrl: "https://autoandcustomslider.netlify.app",
+        viewProjectCodeUrl: "https://github.com/WebWithAman/auto-and-custom-slider"
       },
       {
         projectThumbnailSrc: "Assets/Images/Html Css Js Mini Projects Thumbnails/thumbnail-2.jpg",
@@ -293,9 +293,9 @@ const allCategoriesProjectsDetails = [
       },
       {
         projectThumbnailSrc: "Assets/Images/Html Css Js Mini Projects Thumbnails/thumbnail-4.jpg",
-        projectTitle: "surprising card",
-        viewProjectLiveUrl: "https://surprisingcardhoverbyaman.netlify.app",
-        viewProjectCodeUrl: "https://github.com/WebWithAman/surprising-card-hover"
+        projectTitle: "amazing auto slider",
+        viewProjectLiveUrl: "https://amazingautoslider.netlify.app",
+        viewProjectCodeUrl: "https://github.com/WebWithAman/amazing-auto-slider"
       },
       {
         projectThumbnailSrc: "Assets/Images/Html Css Js Mini Projects Thumbnails/thumbnail-5.jpg",
@@ -320,6 +320,18 @@ const allCategoriesProjectsDetails = [
         projectTitle: "animated radio buttons",
         viewProjectLiveUrl: "https://animatedradiosbyaman.netlify.app",
         viewProjectCodeUrl: "https://github.com/WebWithAman/animated-radio-buttons"
+      },
+      {
+        projectThumbnailSrc: "Assets/Images/Html Css Js Mini Projects Thumbnails/thumbnail-9.jpg",
+        projectTitle: "animated auto scrolling slider",
+        viewProjectLiveUrl: "https://animatedautoscrollingsliderbyaman.netlify.app",
+        viewProjectCodeUrl: "https://github.com/WebWithAman/animated-auto-scrolling-slider"
+      },
+      {
+        projectThumbnailSrc: "Assets/Images/Html Css Js Mini Projects Thumbnails/thumbnail-10.jpg",
+        projectTitle: "surprising card",
+        viewProjectLiveUrl: "https://surprisingcardhoverbyaman.netlify.app",
+        viewProjectCodeUrl: "https://github.com/WebWithAman/surprising-card-hover"
       }
     ]
   },

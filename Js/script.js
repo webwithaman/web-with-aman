@@ -206,37 +206,37 @@ const allCategoriesProjectsDetails = [
         projectThumbnailSrc: "Assets/Images/Html Css Js Projects Thumbnails/thumbnail-1.jpg",
         projectTitle: "super shoes store",
         viewProjectLiveUrl: "https://supershoesstore.netlify.app",
-        viewProjectCodeUrl: "https://github.com/WebWithAman/Super-Shoes-Store"
+        viewProjectCodeUrl: "https://github.com/WebWithAman/super-shoes-store"
       },
       {
         projectThumbnailSrc: "Assets/Images/Html Css Js Projects Thumbnails/thumbnail-2.jpg",
         projectTitle: "gym and fitness",
         viewProjectLiveUrl: "https://gymandfitnesscenter.netlify.app",
-        viewProjectCodeUrl: "https://github.com/WebWithAman/Gym-And-Fitness-Responsive-Website"
+        viewProjectCodeUrl: "https://github.com/WebWithAman/gym-and-fitness-center"
       },
       {
         projectThumbnailSrc: "Assets/Images/Html Css Js Projects Thumbnails/thumbnail-3.jpg",
         projectTitle: "tour and travels",
         viewProjectLiveUrl: "https://tourandtravelsagency.netlify.app",
-        viewProjectCodeUrl: "https://github.com/WebWithAman/Tour-And-Travels-Website"
+        viewProjectCodeUrl: "https://github.com/WebWithAman/tour-and-travels-agency"
       },
       {
         projectThumbnailSrc: "Assets/Images/Html Css Js Projects Thumbnails/thumbnail-4.jpg",
         projectTitle: "animated cartoon portfolio",
         viewProjectLiveUrl: "https://animatedcartoonportfolio.netlify.app",
-        viewProjectCodeUrl: "https://github.com/WebWithAman/Animated-Cartoon-Portfolio"
+        viewProjectCodeUrl: "https://github.com/WebWithAman/animated-cartoon-portfolio"
       },
       {
         projectThumbnailSrc: "Assets/Images/Html Css Js Projects Thumbnails/thumbnail-5.jpg",
         projectTitle: "photohd studio",
         viewProjectLiveUrl: "https://photohdstudio.netlify.app",
-        viewProjectCodeUrl: "https://github.com/WebWithAman/PhotoHD-Studio-Website"
+        viewProjectCodeUrl: "https://github.com/WebWithAman/photohd-studio-website"
       },
       {
         projectThumbnailSrc: "Assets/Images/Html Css Js Projects Thumbnails/thumbnail-6.svg",
         projectTitle: "code with aman",
         viewProjectLiveUrl: "https://codewithaman06.netlify.app",
-        viewProjectCodeUrl: "https://github.com/WebWithAman/Code-With-Aman"
+        viewProjectCodeUrl: "https://github.com/WebWithAman/code-with-aman"
       },
       {
         projectThumbnailSrc: "Assets/Images/Html Css Js Projects Thumbnails/thumbnail-7.jpg",

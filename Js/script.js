@@ -332,6 +332,12 @@ const allCategoriesProjectsDetails = [
         projectTitle: "surprising card",
         viewProjectLiveUrl: "https://surprisingcardhoverbyaman.netlify.app",
         viewProjectCodeUrl: "https://github.com/webwithaman/surprising-card-hover"
+      },
+      {
+        projectThumbnailSrc: "Assets/Images/Html Css Js Mini Projects Thumbnails/thumbnail-11.jpg",
+        projectTitle: "simple slider",
+        viewProjectLiveUrl: "https://simpleslider.netlify.app",
+        viewProjectCodeUrl: "https://github.com/webwithaman/simple-slider"
       }
     ]
   },

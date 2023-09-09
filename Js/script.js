@@ -335,9 +335,9 @@ const allCategoriesProjectsDetails = [
       },
       {
         projectThumbnailSrc: "Assets/Images/Html Css Js Mini Projects Thumbnails/thumbnail-11.jpg",
-        projectTitle: "simple slider",
-        viewProjectLiveUrl: "https://simpleslider.netlify.app",
-        viewProjectCodeUrl: "https://github.com/webwithaman/simple-slider"
+        projectTitle: "simple image slider",
+        viewProjectLiveUrl: "https://simpleimagesliderbyaman.netlify.app",
+        viewProjectCodeUrl: "https://github.com/webwithaman/simple-image-slider"
       }
     ]
   },
@@ -488,7 +488,7 @@ function displayProjectsOfSearchedCategory() {
 
   // Get Projects Category Headings
   const projectsCategoryHeadings = document.querySelectorAll(".projects-category-heading");
-  const searchedValue = searchProjectsInput.value;
+  const searchedValue = projectSearchField.value;
 
   projectsCategoryHeadings.forEach(function (projectsCategoryHeading) {
 

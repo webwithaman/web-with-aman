@@ -157,21 +157,21 @@ const allCategoriesProjectsDetails = [
       },
       {
         projectThumbnailSrc: "Assets/Images/Html Projects Thumbnails/thumbnail-5.jpg",
-        projectTitle: "time-table layout",
-        viewProjectLiveUrl: "https://tablelayout1byaman.netlify.app",
-        viewProjectCodeUrl: "https://github.com/webwithaman/table-layout-1"
+        projectTitle: "complex time-table layout",
+        viewProjectLiveUrl: "https://complextimetablebyaman.netlify.app",
+        viewProjectCodeUrl: "https://github.com/webwithaman/complex-time-table"
       },
       {
         projectThumbnailSrc: "Assets/Images/Html Projects Thumbnails/thumbnail-6.jpg",
-        projectTitle: "flag colors table layout",
-        viewProjectLiveUrl: "https://tablelayout2byaman.netlify.app",
-        viewProjectCodeUrl: "https://github.com/webwithaman/table-layout-2"
+        projectTitle: "flag coloured table",
+        viewProjectLiveUrl: "https://flagcolouredtablebyaman.netlify.app",
+        viewProjectCodeUrl: "https://github.com/webwithaman/flag-coloured-table"
       },
       {
         projectThumbnailSrc: "Assets/Images/Html Projects Thumbnails/thumbnail-7.jpg",
-        projectTitle: "designed time table",
-        viewProjectLiveUrl: "https://tablelayout3byaman.netlify.app",
-        viewProjectCodeUrl: "https://github.com/webwithaman/table-layout-3"
+        projectTitle: "stunning time-table",
+        viewProjectLiveUrl: "https://stunningtimetablebyaman.netlify.app",
+        viewProjectCodeUrl: "https://github.com/webwithaman/stunning-time-table"
       },
       {
         projectThumbnailSrc: "Assets/Images/Html Projects Thumbnails/thumbnail-8.jpg",

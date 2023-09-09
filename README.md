@@ -16,7 +16,7 @@ Welcome to **web with aman**, a portfolio website that showcases my skills and p
 
 If you want to run this website locally on your machine, you can follow these steps:
 
-- Clone this repository to your local machine using `git clone https://github.com/aman/web-with-aman.git`
+- Clone this repository to your local machine using `git clone https://github.com/webwithaman/web-with-aman.git`
 - Open the `index.html` file in your browser of choice.
 - Enjoy browsing the website.
 

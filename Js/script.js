@@ -175,21 +175,21 @@ const allCategoriesProjectsDetails = [
       },
       {
         projectThumbnailSrc: "Assets/Images/Html Projects Thumbnails/thumbnail-8.jpg",
-        projectTitle: "dark table layout",
-        viewProjectLiveUrl: "https://tablelayout4byaman.netlify.app",
-        viewProjectCodeUrl: "https://github.com/webwithaman/table-layout-4"
+        projectTitle: "black-bg table",
+        viewProjectLiveUrl: "https://blackbgtablebyaman.netlify.app",
+        viewProjectCodeUrl: "https://github.com/webwithaman/black-bg-table"
       },
       {
         projectThumbnailSrc: "Assets/Images/Html Projects Thumbnails/thumbnail-9.svg",
         projectTitle: "colorful table",
-        viewProjectLiveUrl: "https://tablelayout5byaman.netlify.app",
-        viewProjectCodeUrl: "https://github.com/webwithaman/table-layout-5"
+        viewProjectLiveUrl: "https://colorfultablebyaman.netlify.app",
+        viewProjectCodeUrl: "https://github.com/webwithaman/colorful-table"
       },
       {
         projectThumbnailSrc: "Assets/Images/Html Projects Thumbnails/thumbnail-10.jpg",
         projectTitle: "complex table layout",
-        viewProjectLiveUrl: "https://tablelayout6byaman.netlify.app",
-        viewProjectCodeUrl: "https://github.com/webwithaman/table-layout-6"
+        viewProjectLiveUrl: "https://complextablelayoutbyaman.netlify.app",
+        viewProjectCodeUrl: "https://github.com/webwithaman/complex-table-layout"
       },
       {
         projectThumbnailSrc: "Assets/Images/Html Projects Thumbnails/thumbnail-11.jpg",

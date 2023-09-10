@@ -992,6 +992,11 @@ p {
   overflow: hidden;
 }
 
+.project-box .project-thumbnail-box img {
+  height: 100%;
+}
+
+
 .project-box .project-thumbnail-box::after {
   content: "Review Me";
   position: absolute;

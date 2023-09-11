@@ -132,67 +132,67 @@ const allCategoriesProjectsDetails = [
         projectsCategory: "html",
         projectsList: [
             {
-                projectThumbnailSrc: "Assets/Images/Html Projects Thumbnails/thumbnail-1.jpg",
+                projectThumbnailSrc: "assets/images/html-projects-thumbnails/thumbnail-1.jpg",
                 projectTitle: "simple portfolio website",
                 viewProjectLiveUrl: "https://amansimpleportfolio.netlify.app",
                 viewProjectCodeUrl: "https://github.com/webwithaman/portfolio-using-only-html"
             },
             {
-                projectThumbnailSrc: "Assets/Images/Html Projects Thumbnails/thumbnail-2.png",
+                projectThumbnailSrc: "assets/images/html-projects-thumbnails/thumbnail-2.png",
                 projectTitle: "simple blogs website",
                 viewProjectLiveUrl: "https://blogwebsitebyaman.netlify.app",
                 viewProjectCodeUrl: "https://github.com/webwithaman/blog-website-using-only-html"
             },
             {
-                projectThumbnailSrc: "Assets/Images/Html Projects Thumbnails/thumbnail-3.jpg",
+                projectThumbnailSrc: "assets/images/html-projects-thumbnails/thumbnail-3.jpg",
                 projectTitle: "simple music website",
                 viewProjectLiveUrl: "https://musicwebsitebyaman.netlify.app",
                 viewProjectCodeUrl: "https://github.com/webwithaman/music-website-using-only-html"
             },
             {
-                projectThumbnailSrc: "Assets/Images/Html Projects Thumbnails/thumbnail-4.svg",
+                projectThumbnailSrc: "assets/images/html-projects-thumbnails/thumbnail-4.svg",
                 projectTitle: "calender using tables",
                 viewProjectLiveUrl: "https://calenderbyaman.netlify.app",
                 viewProjectCodeUrl: "https://github.com/webwithaman/calender-using-html-tables"
             },
             {
-                projectThumbnailSrc: "Assets/Images/Html Projects Thumbnails/thumbnail-5.jpg",
+                projectThumbnailSrc: "assets/images/html-projects-thumbnails/thumbnail-5.jpg",
                 projectTitle: "complex time-table layout",
                 viewProjectLiveUrl: "https://complextimetablebyaman.netlify.app",
                 viewProjectCodeUrl: "https://github.com/webwithaman/complex-time-table"
             },
             {
-                projectThumbnailSrc: "Assets/Images/Html Projects Thumbnails/thumbnail-6.jpg",
+                projectThumbnailSrc: "assets/images/html-projects-thumbnails/thumbnail-6.jpg",
                 projectTitle: "flag coloured table",
                 viewProjectLiveUrl: "https://flagcolouredtablebyaman.netlify.app",
                 viewProjectCodeUrl: "https://github.com/webwithaman/flag-coloured-table"
             },
             {
-                projectThumbnailSrc: "Assets/Images/Html Projects Thumbnails/thumbnail-7.jpg",
+                projectThumbnailSrc: "assets/images/html-projects-thumbnails/thumbnail-7.jpg",
                 projectTitle: "stunning time-table",
                 viewProjectLiveUrl: "https://stunningtimetablebyaman.netlify.app",
                 viewProjectCodeUrl: "https://github.com/webwithaman/stunning-time-table"
             },
             {
-                projectThumbnailSrc: "Assets/Images/Html Projects Thumbnails/thumbnail-8.jpg",
+                projectThumbnailSrc: "assets/images/html-projects-thumbnails/thumbnail-8.jpg",
                 projectTitle: "black-bg table",
                 viewProjectLiveUrl: "https://blackbgtablebyaman.netlify.app",
                 viewProjectCodeUrl: "https://github.com/webwithaman/black-bg-table"
             },
             {
-                projectThumbnailSrc: "Assets/Images/Html Projects Thumbnails/thumbnail-9.svg",
+                projectThumbnailSrc: "assets/images/html-projects-thumbnails/thumbnail-9.svg",
                 projectTitle: "colorful table",
                 viewProjectLiveUrl: "https://colorfultablebyaman.netlify.app",
                 viewProjectCodeUrl: "https://github.com/webwithaman/colorful-table"
             },
             {
-                projectThumbnailSrc: "Assets/Images/Html Projects Thumbnails/thumbnail-10.jpg",
+                projectThumbnailSrc: "assets/images/html-projects-thumbnails/thumbnail-10.jpg",
                 projectTitle: "complex table layout",
                 viewProjectLiveUrl: "https://complextablelayoutbyaman.netlify.app",
                 viewProjectCodeUrl: "https://github.com/webwithaman/complex-table-layout"
             },
             {
-                projectThumbnailSrc: "Assets/Images/Html Projects Thumbnails/thumbnail-11.jpg",
+                projectThumbnailSrc: "assets/images/html-projects-thumbnails/thumbnail-11.jpg",
                 projectTitle: "website layout using tables",
                 viewProjectLiveUrl: "https://websitelayoutusingtablesbyaman.netlify.app",
                 viewProjectCodeUrl: "https://github.com/webwithaman/website-layout-using-tables"
@@ -203,67 +203,67 @@ const allCategoriesProjectsDetails = [
         projectsCategory: "html css js",
         projectsList: [
             {
-                projectThumbnailSrc: "Assets/Images/Html Css Js Projects Thumbnails/thumbnail-1.jpg",
+                projectThumbnailSrc: "assets/images/html-css-js-projects-thumbnails/thumbnail-1.jpg",
                 projectTitle: "super shoes store",
                 viewProjectLiveUrl: "https://supershoesstore.netlify.app",
                 viewProjectCodeUrl: "https://github.com/webwithaman/super-shoes-store"
             },
             {
-                projectThumbnailSrc: "Assets/Images/Html Css Js Projects Thumbnails/thumbnail-2.jpg",
+                projectThumbnailSrc: "assets/images/html-css-js-projects-thumbnails/thumbnail-2.jpg",
                 projectTitle: "gym and fitness",
                 viewProjectLiveUrl: "https://gymandfitnesscenter.netlify.app",
                 viewProjectCodeUrl: "https://github.com/webwithaman/gym-and-fitness-center"
             },
             {
-                projectThumbnailSrc: "Assets/Images/Html Css Js Projects Thumbnails/thumbnail-3.jpg",
+                projectThumbnailSrc: "assets/images/html-css-js-projects-thumbnails/thumbnail-3.jpg",
                 projectTitle: "tour and travels",
                 viewProjectLiveUrl: "https://tourandtravelsagency.netlify.app",
                 viewProjectCodeUrl: "https://github.com/webwithaman/tour-and-travels-agency"
             },
             {
-                projectThumbnailSrc: "Assets/Images/Html Css Js Projects Thumbnails/thumbnail-4.jpg",
+                projectThumbnailSrc: "assets/images/html-css-js-projects-thumbnails/thumbnail-4.jpg",
                 projectTitle: "animated cartoon portfolio",
                 viewProjectLiveUrl: "https://animatedcartoonportfolio.netlify.app",
                 viewProjectCodeUrl: "https://github.com/webwithaman/animated-cartoon-portfolio"
             },
             {
-                projectThumbnailSrc: "Assets/Images/Html Css Js Projects Thumbnails/thumbnail-5.jpg",
+                projectThumbnailSrc: "assets/images/html-css-js-projects-thumbnails/thumbnail-5.jpg",
                 projectTitle: "photohd studio",
                 viewProjectLiveUrl: "https://photohdstudio.netlify.app",
                 viewProjectCodeUrl: "https://github.com/webwithaman/photohd-studio-website"
             },
             {
-                projectThumbnailSrc: "Assets/Images/Html Css Js Projects Thumbnails/thumbnail-6.svg",
+                projectThumbnailSrc: "assets/images/html-css-js-projects-thumbnails/thumbnail-6.svg",
                 projectTitle: "code with aman",
                 viewProjectLiveUrl: "https://codewithaman06.netlify.app",
                 viewProjectCodeUrl: "https://github.com/webwithaman/code-with-aman"
             },
             {
-                projectThumbnailSrc: "Assets/Images/Html Css Js Projects Thumbnails/thumbnail-7.jpg",
+                projectThumbnailSrc: "assets/images/html-css-js-projects-thumbnails/thumbnail-7.jpg",
                 projectTitle: "marketing with aman",
                 viewProjectLiveUrl: "https://marketingwithaman.netlify.app",
                 viewProjectCodeUrl: "https://github.com/webwithaman/Marketing-Agency-Website"
             },
             {
-                projectThumbnailSrc: "Assets/Images/Html Css Js Projects Thumbnails/thumbnail-8.jpg",
+                projectThumbnailSrc: "assets/images/html-css-js-projects-thumbnails/thumbnail-8.jpg",
                 projectTitle: "introspect website",
                 viewProjectLiveUrl: "https://introspectwebsite.netlify.app",
                 viewProjectCodeUrl: "https://github.com/webwithaman/introspect-website"
             },
             {
-                projectThumbnailSrc: "Assets/Images/Html Css Js Projects Thumbnails/thumbnail-9.jpg",
+                projectThumbnailSrc: "assets/images/html-css-js-projects-thumbnails/thumbnail-9.jpg",
                 projectTitle: "online education institute",
                 viewProjectLiveUrl: "https://onlineeducationinstitute.netlify.app",
                 viewProjectCodeUrl: "https://github.com/webwithaman/online-education-institute"
             },
             {
-                projectThumbnailSrc: "Assets/Images/Html Css Js Projects Thumbnails/thumbnail-10.jpg",
+                projectThumbnailSrc: "assets/images/html-css-js-projects-thumbnails/thumbnail-10.jpg",
                 projectTitle: "portfolio landing page",
                 viewProjectLiveUrl: "https://webwithamanlandingpage.netlify.app",
                 viewProjectCodeUrl: "https://github.com/webwithaman/portfolio-landing-page"
             },
             {
-                projectThumbnailSrc: "Assets/Images/Html Css Js Projects Thumbnails/thumbnail-11.jpg",
+                projectThumbnailSrc: "assets/images/html-css-js-projects-thumbnails/thumbnail-11.jpg",
                 projectTitle: "netron website",
                 viewProjectLiveUrl: "https://netronwebsite.netlify.app",
                 viewProjectCodeUrl: "https://github.com/webwithaman/Netron-Website"
@@ -274,67 +274,67 @@ const allCategoriesProjectsDetails = [
         projectsCategory: "html css js mini",
         projectsList: [
             {
-                projectThumbnailSrc: "Assets/Images/Html Css Js Mini Projects Thumbnails/thumbnail-1.jpg",
-                projectTitle: "animated and custom slider",
+                projectThumbnailSrc: "assets/images/html-css-js-mini-projects-thumbnails/thumbnail-1.jpg",
+                projectTitle: "auto and custom slider",
                 viewProjectLiveUrl: "https://autoandcustomslider.netlify.app",
                 viewProjectCodeUrl: "https://github.com/webwithaman/auto-and-custom-slider"
             },
             {
-                projectThumbnailSrc: "Assets/Images/Html Css Js Mini Projects Thumbnails/thumbnail-2.jpg",
+                projectThumbnailSrc: "assets/images/html-css-js-mini-projects-thumbnails/thumbnail-2.jpg",
                 projectTitle: "bouncing balls",
                 viewProjectLiveUrl: "https://bouncingballsbyaman.netlify.app",
                 viewProjectCodeUrl: "https://github.com/webwithaman/bouncing-balls"
             },
             {
-                projectThumbnailSrc: "Assets/Images/Html Css Js Mini Projects Thumbnails/thumbnail-3.jpg",
-                projectTitle: "Collapsing card",
+                projectThumbnailSrc: "assets/images/html-css-js-mini-projects-thumbnails/thumbnail-3.jpg",
+                projectTitle: "collapsing card",
                 viewProjectLiveUrl: "https://cardcollapsinghoverbyaman.netlify.app",
                 viewProjectCodeUrl: "https://github.com/webwithaman/card-collapsing-hover-effect"
             },
             {
-                projectThumbnailSrc: "Assets/Images/Html Css Js Mini Projects Thumbnails/thumbnail-4.jpg",
+                projectThumbnailSrc: "assets/images/html-css-js-mini-projects-thumbnails/thumbnail-4.jpg",
                 projectTitle: "amazing auto slider",
                 viewProjectLiveUrl: "https://amazingautoslider.netlify.app",
                 viewProjectCodeUrl: "https://github.com/webwithaman/amazing-auto-slider"
             },
             {
-                projectThumbnailSrc: "Assets/Images/Html Css Js Mini Projects Thumbnails/thumbnail-5.jpg",
+                projectThumbnailSrc: "assets/images/html-css-js-mini-projects-thumbnails/thumbnail-5.jpg",
                 projectTitle: "amazing buttons",
                 viewProjectLiveUrl: "https://amazingbuttonsbyaman.netlify.app",
                 viewProjectCodeUrl: "https://github.com/webwithaman/buttons-with-amazing-hover-effects"
             },
             {
-                projectThumbnailSrc: "Assets/Images/Html Css Js Mini Projects Thumbnails/thumbnail-6.jpg",
+                projectThumbnailSrc: "assets/images/html-css-js-mini-projects-thumbnails/thumbnail-6.jpg",
                 projectTitle: "pre-loaders",
                 viewProjectLiveUrl: "https://preloadersbyaman.netlify.app",
                 viewProjectCodeUrl: "https://github.com/webwithaman/pre-loaders"
             },
             {
-                projectThumbnailSrc: "Assets/Images/Html Css Js Mini Projects Thumbnails/thumbnail-7.svg",
+                projectThumbnailSrc: "assets/images/html-css-js-mini-projects-thumbnails/thumbnail-7.svg",
                 projectTitle: "interactive image slider",
                 viewProjectLiveUrl: "https://interactiveimagesliderbyaman.netlify.app",
                 viewProjectCodeUrl: "https://github.com/webwithaman/interactive-image-slider"
             },
             {
-                projectThumbnailSrc: "Assets/Images/Html Css Js Mini Projects Thumbnails/thumbnail-8.jpg",
+                projectThumbnailSrc: "assets/images/html-css-js-mini-projects-thumbnails/thumbnail-8.jpg",
                 projectTitle: "animated radio buttons",
                 viewProjectLiveUrl: "https://animatedradiosbyaman.netlify.app",
                 viewProjectCodeUrl: "https://github.com/webwithaman/animated-radio-buttons"
             },
             {
-                projectThumbnailSrc: "Assets/Images/Html Css Js Mini Projects Thumbnails/thumbnail-9.jpg",
+                projectThumbnailSrc: "assets/images/html-css-js-mini-projects-thumbnails/thumbnail-9.jpg",
                 projectTitle: "animated auto scrolling slider",
                 viewProjectLiveUrl: "https://animatedautoscrollingsliderbyaman.netlify.app",
                 viewProjectCodeUrl: "https://github.com/webwithaman/animated-auto-scrolling-slider"
             },
             {
-                projectThumbnailSrc: "Assets/Images/Html Css Js Mini Projects Thumbnails/thumbnail-10.jpg",
+                projectThumbnailSrc: "assets/images/html-css-js-mini-projects-thumbnails/thumbnail-10.jpg",
                 projectTitle: "surprising card",
                 viewProjectLiveUrl: "https://surprisingcardhoverbyaman.netlify.app",
                 viewProjectCodeUrl: "https://github.com/webwithaman/surprising-card-hover"
             },
             {
-                projectThumbnailSrc: "Assets/Images/Html Css Js Mini Projects Thumbnails/thumbnail-11.jpg",
+                projectThumbnailSrc: "assets/images/html-css-js-mini-projects-thumbnails/thumbnail-11.jpg",
                 projectTitle: "simple image slider",
                 viewProjectLiveUrl: "https://simpleimagesliderbyaman.netlify.app",
                 viewProjectCodeUrl: "https://github.com/webwithaman/simple-image-slider"
@@ -345,13 +345,13 @@ const allCategoriesProjectsDetails = [
         projectsCategory: "javascript",
         projectsList: [
             {
-                projectThumbnailSrc: "Assets/Images/Javascript Projects Thumbnails/thumbnail-1.jpg",
+                projectThumbnailSrc: "assets/images/javascript-projects-thumbnails/thumbnail-1.jpg",
                 projectTitle: "typing speed tester",
                 viewProjectLiveUrl: "https://typingwithaman.netlify.app",
                 viewProjectCodeUrl: "https://github.com/webwithaman/typing-speed-tester"
             },
             {
-                projectThumbnailSrc: "Assets/Images/Javascript Projects Thumbnails/thumbnail-2.jpg",
+                projectThumbnailSrc: "assets/images/javascript-projects-thumbnails/thumbnail-2.jpg",
                 projectTitle: "vehicles racing animation",
                 viewProjectLiveUrl: "https://racinganimationbyaman.netlify.app",
                 viewProjectCodeUrl: "https://github.com/webwithaman/vehicles-racing-animation"
@@ -363,13 +363,13 @@ const allCategoriesProjectsDetails = [
         projectsCategory: "neogcamp",
         projectsList: [
             {
-                projectThumbnailSrc: "Assets/Images/Neogcamp Projects Thumbnails/thumbnail-1.jpg",
+                projectThumbnailSrc: "assets/images/neogcamp-projects-thumbnails/thumbnail-1.jpg",
                 projectTitle: "how well you know me",
                 viewProjectLiveUrl: "https://replit.com/@webwithaman/how-well-you-know-me-quiz-app?embed=1&output=1",
                 viewProjectCodeUrl: "https://github.com/webwithaman/how-well-you-know-me"
             },
             {
-                projectThumbnailSrc: "Assets/Images/Neogcamp Projects Thumbnails/thumbnail-2.jpg",
+                projectThumbnailSrc: "assets/images/neogcamp-projects-thumbnails/thumbnail-2.jpg",
                 projectTitle: "cli quiz app",
                 viewProjectLiveUrl: "https://replit.com/@webwithaman/cli-quiz-app?embed=1&output=1",
                 viewProjectCodeUrl: "https://github.com/webwithaman/cli-quiz-app"

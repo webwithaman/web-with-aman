@@ -106,6 +106,7 @@ redirectBtns.forEach(function (btn) {
 // Get About Info Open Btns
 const aboutInfoOpenBtns = document.querySelectorAll(".about-info-open-btn");
 
+
 // Add Event Listner On About Info Open Btn to Show About Info
 aboutInfoOpenBtns.forEach(function (aboutInfoOpenBtn) {
     aboutInfoOpenBtn.addEventListener('click', function () {

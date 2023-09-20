@@ -243,7 +243,7 @@ const allCategoriesProjectsDetails = [
                 projectThumbnailSrc: "assets/images/html-css-js-projects-thumbnails/thumbnail-7.jpg",
                 projectTitle: "marketing with aman",
                 viewProjectLiveUrl: "https://marketingwithaman.netlify.app",
-                viewProjectCodeUrl: "https://github.com/webwithaman/Marketing-Agency-Website"
+                viewProjectCodeUrl: "https://github.com/webwithaman/marketing-agency-website"
             },
             {
                 projectThumbnailSrc: "assets/images/html-css-js-projects-thumbnails/thumbnail-8.jpg",
@@ -267,7 +267,7 @@ const allCategoriesProjectsDetails = [
                 projectThumbnailSrc: "assets/images/html-css-js-projects-thumbnails/thumbnail-11.jpg",
                 projectTitle: "netron website",
                 viewProjectLiveUrl: "https://netronwebsite.netlify.app",
-                viewProjectCodeUrl: "https://github.com/webwithaman/Netron-Website"
+                viewProjectCodeUrl: "https://github.com/webwithaman/netron-website"
             }
         ]
     },

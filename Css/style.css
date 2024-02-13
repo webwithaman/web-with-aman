@@ -736,7 +736,6 @@ p {
   position: absolute;
   font-size: 1.6rem;
   color: var(--active-light-font-color);
-  
   top: 0;
   right: 0;
   cursor: pointer;

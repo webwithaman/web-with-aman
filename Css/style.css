@@ -983,7 +983,7 @@ p {
   content: "Review Me";
   position: absolute;
   color: var(--active-secondary-bg);
-  font-size: 1.8rem;
+  font-size: 2rem;
   font-family: var(--font-family-1);
   letter-spacing: 0.3px;
   text-transform: uppercase;

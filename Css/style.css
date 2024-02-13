@@ -939,11 +939,11 @@ p {
 .projects-category-heading i {
   display: grid;
   place-items: center;
-  width: 3.2rem;
+  width: 3.5rem;
   aspect-ratio: 1;
   border-radius: 50%;
   background-color: var(--active-theme-color);
-  font-size: 1.7rem;
+  font-size: 1.8rem;
   box-shadow: 0 0 3rem var(--active-two-mode-shadow);
   color: var(--pure-white);
 }

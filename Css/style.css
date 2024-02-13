@@ -859,7 +859,6 @@ p {
 
 .academics-box p {
   color: var(--active-light-font-color);
-  /* font-size: 1.4rem; */
 }
 
 /**********************************************************
@@ -880,7 +879,7 @@ p {
 .project-search-bar {
   position: absolute;
   top: calc(var(--pad-block + 5rem));
-  right: calc(var(--pad-inline) + 1rem);
+  right: var(--pad-inline);
   background-color: var(--active-theme-color);
   box-shadow: 0 0 0.5rem var(--active-two-mode-shadow);
   padding: 1rem 1.2rem;
@@ -893,7 +892,7 @@ p {
 
 .project-search-bar input {
   background-color: transparent;
-  font-size: 1.5rem;
+  font-size: 1.6rem;
   border: none;
   padding-inline: 0;
   font-family: var(--font-family-2);
@@ -914,7 +913,7 @@ p {
 }
 
 .project-search-bar i {
-  font-size: 2rem;
+  font-size: 2.1rem;
 }
 
 /**********************************************************
@@ -1025,7 +1024,7 @@ p {
 }
 
 .project-view-btns-group .project-view-btn {
-  font-size: 1.5rem;
+  font-size: 1.4rem;
   font-weight: 600;
   letter-spacing: 0.6px;
   color: var(--active-theme-color);

@@ -25,7 +25,10 @@ function animateAmanName() {
 
 // Add Click Event On showThemeColorsBtn to Change Display Theme Colors
 showThemeColorsBtn.addEventListener('click', function () {
+    const themeChangeBox = document.querySelector(".theme-change-box");
     const themeColorsBox = document.querySelector(".theme-colors-box");
+
+    themeChangeBox.classList.toggle("change-right");
 
     // Show Theme Colors Options
     if (getComputedStyle(themeColorsBox).maxWidth == "0px")

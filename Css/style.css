@@ -1,8 +1,7 @@
 /**********************************************************
   Add Google Fonts
 **********************************************************/
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&family=Nunito:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,200&family=Poppins:wght@300;400;500;600;700;800&family=Ubuntu:wght@300;400;500;700&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&family=Nunito:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,200&family=Poppins:wght@300;400;500;600;700;800&family=Ubuntu:wght@300;400;500;700&display=swap");
 
 /**********************************************************
   Reset Default Properties Start
@@ -41,15 +40,13 @@ body {
   Reset Default Properties End
 **********************************************************/
 
-
 /**********************************************************
   Variables Start
 **********************************************************/
 :root {
-
   /* Theme Colors */
-  --theme-1-color: #18FFFF;
-  --theme-2-color: #FF0000;
+  --theme-1-color: #18ffff;
+  --theme-2-color: #ff0000;
   --theme-3-color: #05ff00;
   --theme-4-color: #0500ff;
   --theme-5-color: #ff5c00;
@@ -78,24 +75,22 @@ body {
   --d-border-color: #ada2a24d;
 
   /* Theme Fonts */
-  --font-family-1: 'Nunito', sans-serif;
-  --font-family-2: 'Poppins', sans-serif;
+  --font-family-1: "Nunito", sans-serif;
+  --font-family-2: "Poppins", sans-serif;
 
   /* Padding */
   --pad-inline: 1.8rem;
-  --pad-block: 4.5rem
+  --pad-block: 4.5rem;
 }
 
 /**********************************************************
   Variables End
 **********************************************************/
 
-
 /**********************************************************
   Common Properties to Frequently Used Elements Start
 **********************************************************/
 body {
-
   /* Following Properties Will be Inherited By All the Elements */
 
   /* Active or Default Mode (Dark Mode)  */
@@ -113,7 +108,7 @@ a {
   text-decoration: none;
   display: inline-block;
   font-family: var(--font-family-2);
-  transition: all .3s linear;
+  transition: all 0.3s linear;
 }
 
 li {
@@ -128,7 +123,7 @@ button {
   font-weight: 500;
   letter-spacing: 1px;
   font-family: var(--font-family-2);
-  transition: all .3s linear;
+  transition: all 0.3s linear;
   background-color: transparent;
 }
 
@@ -164,17 +159,16 @@ h1 {
 p {
   font-family: var(--font-family-2);
   line-height: 1.6;
+  font-size: 1.6rem;
 }
 
 /**********************************************************
   Common Properties to Frequently Used Elements End
 **********************************************************/
 
-
-/***********************************************************************************************
+/********************************************************************************
   Actual Document Styling Start
-***********************************************************************************************/
-
+*********************************************************************************/
 
 /**********************************************************
   Wrapper Start
@@ -184,7 +178,6 @@ p {
   height: auto;
 }
 
-
 /**********************************************************
   Aside Nav Start
 **********************************************************/
@@ -192,7 +185,7 @@ p {
   width: 30rem;
   height: 100vh;
   background-color: var(--active-secondary-bg);
-  border-right: .2rem solid var(--active-border-color);
+  border-right: 0.2rem solid var(--active-border-color);
   position: fixed;
   top: 0;
   left: 0;
@@ -200,7 +193,7 @@ p {
 
 .aside-nav nav {
   width: 100%;
-  height: inherit;
+  height: 100%;
   overflow-x: hidden;
   overflow-y: auto;
   flex-wrap: nowrap;
@@ -209,7 +202,7 @@ p {
 }
 
 .aside-nav nav::-webkit-scrollbar {
-  width: .5rem;
+  width: 0.7rem;
 }
 
 /**********************************************************
@@ -217,40 +210,40 @@ p {
 **********************************************************/
 .logo-box {
   position: relative;
-  padding: 2rem;
-  gap: .5rem;
+  /* padding: 2rem; */
+  gap: 0.7rem;
 }
 
-.logo-box::before,
+/* .logo-box::before,
 .logo-box:after {
-  content: '';
+  content: "";
   position: absolute;
   width: 4rem;
   height: 4rem;
-  border-radius: .3rem;
-}
+  border-radius: 0.3rem;
+} 
 
-.logo-box::before {
+/* .logo-box::before {
   top: 0;
   left: 0;
-  border-top: .4rem solid var(--active-theme-color);
-  border-left: .4rem solid var(--active-theme-color);
+  border-top: 0.4rem solid var(--active-theme-color);
+  border-left: 0.4rem solid var(--active-theme-color);
 }
 
 .logo-box::after {
   bottom: 0;
   right: 0;
-  border-bottom: .4rem solid var(--active-theme-color);
-  border-right: .4rem solid var(--active-theme-color);
-}
+  border-bottom: 0.4rem solid var(--active-theme-color);
+  border-right: 0.4rem solid var(--active-theme-color);
+} */
 
 .logo-box img {
-  width: 4rem;
+  width: 5rem;
 }
 
 .logo-box h2 {
   color: var(--active-dark-font-color);
-  font-size: 2rem;
+  font-size: 2.8rem;
   text-transform: uppercase;
   font-weight: 900;
 }
@@ -263,14 +256,14 @@ p {
 }
 
 .aside-nav-links li a {
-  width: 14rem;
-  padding: 1.3rem 2rem;
-  font-size: 1.4rem;
-  letter-spacing: .3px;
+  width: 15rem;
+  padding: 1.4rem;
+  font-size: 1.6rem;
+  letter-spacing: 0.3px;
   font-weight: 600;
   color: var(--active-dark-font-color);
   border: 1px solid var(--active-border-color);
-  border-left: .5rem solid var(--active-dark-font-color);
+  border-left: 0.6rem solid var(--active-dark-font-color);
   background-color: var(--active-primary-bg);
   position: relative;
   z-index: 1;
@@ -284,11 +277,11 @@ p {
   height: 100%;
   background-color: var(--active-theme-color);
   width: 0;
-  transition: all .3s linear;
+  transition: all 0.3s linear;
   z-index: -1;
 }
 
-@media (hover:hover) {
+@media (hover: hover) {
   .aside-nav-links li a:hover::before {
     width: 100%;
   }
@@ -299,7 +292,7 @@ p {
 }
 
 .aside-nav-links li a i {
-  width: 2.4rem;
+  padding-right: 1rem;
 }
 
 /**********************************************************
@@ -309,7 +302,6 @@ p {
 /**********************************************************
   Aside Nav End
 **********************************************************/
-
 
 /**********************************************************
   Pages Container Start 
@@ -325,13 +317,13 @@ p {
 
 .pages-container .page {
   width: 100%;
-  height: 100vh;
+  height: 100%;
   background-color: var(--active-primary-bg);
   position: absolute;
   top: 0;
   left: 0;
   transform: translateX(100%);
-  transition: all .4s linear;
+  transition: all 0.4s linear;
   overflow-x: hidden;
   overflow-y: auto;
 }
@@ -341,7 +333,7 @@ p {
 }
 
 .pages-container .page::-webkit-scrollbar {
-  width: .7rem;
+  width: 0.7rem;
 }
 
 /**********************************************************
@@ -351,12 +343,17 @@ p {
   gap: var(--pad-inline);
   position: fixed;
   z-index: 100;
-  right: var(--pad-inline);
+  right: 0;
   top: var(--pad-block);
+  transition: right 0.8s linear;
+}
+
+.theme-change-box.change-right {
+  right: var(--pad-inline);
 }
 
 .theme-change-icons {
-  gap: .6rem;
+  gap: 0.6rem;
 }
 
 .theme-icon {
@@ -365,8 +362,8 @@ p {
   border-radius: 50%;
   background-color: var(--active-pure-color);
   color: var(--active-dark-font-color);
-  font-size: 1.8rem;
-  border: .1rem solid var(--active-border-color);
+  font-size: 2.1rem;
+  border: 0.1rem solid var(--active-border-color);
   cursor: pointer;
 }
 
@@ -391,34 +388,33 @@ p {
 .theme-colors-box {
   max-width: 0;
   overflow: hidden;
-  transition: all .6s linear;
+  transition: all 0.8s linear;
 }
 
-.theme-colors-box>div {
-  border: .1rem solid var(--active-border-color);
-  border-radius: .8rem;
+.theme-colors-box > div {
+  border: 0.1rem solid var(--active-border-color);
+  border-radius: 0.8rem;
   background-color: var(--active-primary-bg);
   padding: 1rem;
-  width: 19rem;
+  width: 21rem;
+  height: 100%;
 }
 
 .theme-colors-box h3 {
-  font-size: 1.4rem;
+  font-size: 1.6rem;
   color: var(--active-dark-font-color);
-  margin-bottom: 1.4rem;
-  letter-spacing: .3px;
+  letter-spacing: 0.3px;
 }
 
 .theme-colors-box .colors {
-  gap: .6rem;
   flex-wrap: nowrap;
 }
 
 .theme-colors-box .colors span {
-  width: 3rem;
+  width: 3.2rem;
   aspect-ratio: 1/1;
   border-radius: 50%;
-  border: .2rem solid var(--active-border-color);
+  border: 0.2rem solid var(--active-border-color);
   cursor: pointer;
 }
 
@@ -446,11 +442,9 @@ p {
   Theme Change Box End
 **********************************************************/
 
-
 /**********************************************************
   Home Page Start
 **********************************************************/
-
 
 /**********************************************************
   Social Media Icons Start
@@ -460,21 +454,21 @@ p {
 }
 
 .social-media-icons a {
-  width: 3.5rem;
+  width: 3.8rem;
   aspect-ratio: 1/1;
   border-radius: 50%;
   display: grid;
   place-items: center;
-  font-size: 1.7rem;
+  font-size: 2rem;
   color: var(--active-pure-color);
   background-color: var(--active-theme-color);
   box-shadow: 0 0 1.5rem var(--active-two-mode-shadow);
   transform: translateY(0);
 }
 
-@media (hover:hover) {
+@media (hover: hover) {
   .social-media-icons a:hover {
-    transform: translateY(-.5rem);
+    transform: translateY(-0.5rem);
   }
 }
 
@@ -482,12 +476,12 @@ p {
   Social Media Icons End
 **********************************************************/
 
-
 /**********************************************************
   Hero Container Start
 **********************************************************/
 .hero-container {
-  min-height: calc(100vh - var(--pad-block) - 3.5rem);
+  width: 100%;
+  min-height: calc(100vh - var(--pad-block) * 2 - 3.8rem);
 }
 
 /**********************************************************
@@ -495,17 +489,17 @@ p {
 **********************************************************/
 .hero-left {
   flex-basis: 50%;
-  max-width: 700px;
+  max-width: 70rem;
 }
 
 .hero-left h3 {
-  font-size: 2rem;
+  font-size: 2.2rem;
   color: var(--active-theme-color);
   letter-spacing: 1px;
 }
 
 .hero-left h1 {
-  font-size: 6rem;
+  font-size: 7rem;
   color: var(--active-dark-font-color);
 }
 
@@ -522,7 +516,6 @@ p {
 
 /* Keyframes to Animate Aman Name */
 @-webkit-keyframes animate-aman-name {
-
   0%,
   30% {
     transform: perspective(10px) rotate(-360deg) rotateX(80deg);
@@ -534,7 +527,6 @@ p {
 }
 
 @keyframes animate-aman-name {
-
   0%,
   30% {
     transform: perspective(10px) rotate(-360deg) rotateX(80deg);
@@ -546,7 +538,6 @@ p {
 }
 
 .hero-left .animate-web-developer {
-  margin-block: 1rem;
   width: 27.7rem;
   letter-spacing: 1px;
   text-transform: uppercase;
@@ -556,7 +547,10 @@ p {
   -webkit-text-stroke: 1px var(--active-theme-color);
   -webkit-background-clip: text;
   background-clip: text;
-  background-image: linear-gradient(var(--active-theme-color), var(--active-theme-color));
+  background-image: linear-gradient(
+    var(--active-theme-color),
+    var(--active-theme-color)
+  );
   background-repeat: no-repeat;
   background-size: 27rem;
   background-position: -27rem;
@@ -567,7 +561,6 @@ p {
 
 /* Keyframes to Animate Web Developer */
 @-webkit-keyframes animate-web-developer {
-
   0%,
   50%,
   100% {
@@ -585,7 +578,6 @@ p {
 }
 
 @keyframes animate-web-developer {
-
   0%,
   50%,
   100% {
@@ -616,7 +608,6 @@ p {
 
 /* Keyframes to Animate Cursor On Web Developer */
 @-webkit-keyframes animate-cursor {
-
   0%,
   50%,
   100% {
@@ -632,7 +623,6 @@ p {
 }
 
 @keyframes animate-cursor {
-
   0%,
   50%,
   100% {
@@ -648,24 +638,23 @@ p {
 }
 
 .hero-left p {
-  font-size: 1.4rem;
+  font-size: 1.6rem;
   color: var(--active-light-font-color);
   text-align: justify;
+  margin-top: 1rem;
 }
-
 
 /**********************************************************
   Hero Btns Start
 **********************************************************/
 .hero-btn-box {
   margin-top: 2rem;
-  gap: 1.7rem;
+  gap: 1.8rem;
 }
 
 /**********************************************************
   Hero Left End
 **********************************************************/
-
 
 /**********************************************************
   Hero Right Start
@@ -688,16 +677,13 @@ p {
   Hero Right End
 **********************************************************/
 
-
 /**********************************************************
   Hero Container End
 **********************************************************/
 
-
 /**********************************************************
   Home Page End
 **********************************************************/
-
 
 /**********************************************************
   About Page Start
@@ -712,7 +698,6 @@ p {
 
 .about-intro p {
   color: var(--active-light-font-color);
-  font-size: 1.5rem;
   margin-bottom: 1.8rem;
 }
 
@@ -729,7 +714,7 @@ p {
 }
 
 .about-info {
-  border-left: .5rem solid var(--active-theme-color);
+  border-left: 0.5rem solid var(--active-theme-color);
   background-color: var(--active-secondary-bg);
   padding: 1.5rem;
   flex: 1 1 300px;
@@ -742,8 +727,8 @@ p {
 
 .about-info .about-info-header h3 {
   color: var(--active-dark-font-color);
-  font-size: 1.8rem;
-  letter-spacing: .6px;
+  font-size: 1.9rem;
+  letter-spacing: 0.6px;
   word-spacing: 2px;
 }
 
@@ -754,10 +739,10 @@ p {
   top: 0;
   right: 0;
   cursor: pointer;
-  transition: all .2s linear;
+  transition: all 0.2s linear;
 }
 
-@media (hover:hover) {
+@media (hover: hover) {
   .about-info .about-info-header .about-info-open-btn:hover {
     color: var(--active-dark-font-color);
   }
@@ -766,7 +751,7 @@ p {
 .about-info .about-info-content {
   max-height: 0;
   overflow: hidden;
-  transition: all .3s linear;
+  transition: all 0.3s linear;
 }
 
 .about-info .about-info-content ul {
@@ -774,7 +759,7 @@ p {
 }
 
 .about-info .about-info-content ul li {
-  padding-block: .5rem;
+  padding-block: 0.5rem;
 }
 
 .about-info .about-info-content ul li span:first-child {
@@ -782,15 +767,15 @@ p {
   font-size: 1.2rem;
   font-weight: 600;
   font-family: var(--font-family-2);
-  letter-spacing: .3px;
-  margin-right: .5rem;
+  letter-spacing: 0.3px;
+  margin-right: 0.5rem;
 }
 
 .about-info .about-info-content ul li span:last-child {
   font-size: 1.2rem;
   font-weight: 400;
   font-family: var(--font-family-2);
-  letter-spacing: .3px;
+  letter-spacing: 0.3px;
   color: var(--active-light-font-color);
 }
 
@@ -811,7 +796,7 @@ p {
   padding: 2rem;
   background: var(--active-secondary-bg);
   position: relative;
-  border-left: .5rem solid var(--active-theme-color);
+  border-left: 0.5rem solid var(--active-theme-color);
   box-shadow: 0 0 1rem var(--active-one-mode-shadow);
 }
 
@@ -819,7 +804,7 @@ p {
   content: "";
   position: absolute;
   width: 20rem;
-  height: .5rem;
+  height: 0.5rem;
   background-color: var(--active-theme-color);
   top: 50%;
   transform: translateY(-50%);
@@ -858,23 +843,23 @@ p {
 
 .academics-box .academics-year {
   color: var(--active-theme-color);
-  font-size: 1.2rem;
+  font-size: 1.4rem;
   font-family: var(--font-family-2);
   font-weight: 600;
-  margin-bottom: .8rem;
+  margin-bottom: 0.9rem;
 }
 
 .academics-box h3 {
   color: var(--active-dark-font-color);
-  font-size: 1.8rem;
-  margin-bottom: .5rem;
-  letter-spacing: .4px;
+  font-size: 1.9rem;
+  margin-bottom: 0.6rem;
+  letter-spacing: 0.4px;
   word-spacing: 2px;
 }
 
 .academics-box p {
   color: var(--active-light-font-color);
-  font-size: 1.4rem;
+  /* font-size: 1.4rem; */
 }
 
 /**********************************************************
@@ -884,7 +869,6 @@ p {
 /**********************************************************
   About Page End
 **********************************************************/
-
 
 /**********************************************************
   Projects Page Start
@@ -898,7 +882,7 @@ p {
   top: calc(var(--pad-block + 5rem));
   right: calc(var(--pad-inline) + 1rem);
   background-color: var(--active-theme-color);
-  box-shadow: 0 0 .5rem var(--active-two-mode-shadow);
+  box-shadow: 0 0 0.5rem var(--active-two-mode-shadow);
   padding: 1rem 1.2rem;
   display: flex;
   align-items: center;
@@ -914,9 +898,9 @@ p {
   padding-inline: 0;
   font-family: var(--font-family-2);
   font-weight: 500;
-  letter-spacing: .3px;
+  letter-spacing: 0.3px;
   width: 25rem;
-  transition: all .4s linear;
+  transition: all 0.4s linear;
   max-width: 0;
 }
 
@@ -924,7 +908,7 @@ p {
   color: var(--active-secondary-bg);
 }
 
-.project-search-bar:hover>input {
+.project-search-bar:hover > input {
   max-width: 25rem;
   padding-inline: 1rem;
 }
@@ -945,22 +929,22 @@ p {
   display: flex;
   align-items: center;
   gap: 1rem;
-  font-size: 2rem;
+  font-size: 2.8rem;
   color: var(--active-theme-color);
   margin-bottom: 2.8rem;
   text-transform: uppercase;
-  letter-spacing: .5px;
+  letter-spacing: 1px;
   word-spacing: 3px;
 }
 
 .projects-category-heading i {
   display: grid;
   place-items: center;
-  width: 3rem;
+  width: 3.2rem;
   aspect-ratio: 1;
   border-radius: 50%;
   background-color: var(--active-theme-color);
-  font-size: 1.6rem;
+  font-size: 1.7rem;
   box-shadow: 0 0 3rem var(--active-two-mode-shadow);
   color: var(--pure-white);
 }
@@ -996,14 +980,13 @@ p {
   height: 100%;
 }
 
-
 .project-box .project-thumbnail-box::after {
   content: "Review Me";
   position: absolute;
   color: var(--active-secondary-bg);
   font-size: 1.8rem;
   font-family: var(--font-family-1);
-  letter-spacing: .3px;
+  letter-spacing: 0.3px;
   text-transform: uppercase;
   font-weight: 800;
   word-spacing: 2px;
@@ -1015,19 +998,23 @@ p {
   top: 100%;
   width: 100%;
   height: 100%;
-  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.151), var(--active-theme-color));
-  transition: all .3s ease-out;
+  background-image: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0.151),
+    var(--active-theme-color)
+  );
+  transition: all 0.3s ease-out;
 }
 
-.projects-boxes-container .project-box:hover>.project-thumbnail-box::after {
+.projects-boxes-container .project-box:hover > .project-thumbnail-box::after {
   top: 0;
 }
 
 .project-box .project-title {
-  font-size: 1.8rem;
+  font-size:2rem;
   color: var(--active-dark-font-color);
   margin-block: 1rem 2rem;
-  letter-spacing: .4px;
+  letter-spacing: 0.4px;
   word-spacing: 2px;
 }
 
@@ -1038,14 +1025,14 @@ p {
 }
 
 .project-view-btns-group .project-view-btn {
-  font-size: 1.3rem;
+  font-size: 1.5rem;
   font-weight: 600;
-  letter-spacing: .6px;
+  letter-spacing: 0.6px;
   color: var(--active-theme-color);
   text-transform: capitalize;
   display: flex;
   align-items: center;
-  gap: .5rem;
+  gap: 0.5rem;
 }
 
 .project-view-btns-group .project-view-btn i {
@@ -1056,17 +1043,13 @@ p {
   margin-top: 2.8rem;
 }
 
-
 /**********************************************************
   Projects Page End
 **********************************************************/
 
-
-
 /**********************************************************
   Pages Container End 
 **********************************************************/
-
 
 /***********************************************************************************************
   Actual Document Styling End

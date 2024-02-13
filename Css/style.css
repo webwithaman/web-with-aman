@@ -736,6 +736,7 @@ p {
   position: absolute;
   font-size: 1.6rem;
   color: var(--active-light-font-color);
+  
   top: 0;
   right: 0;
   cursor: pointer;
@@ -764,7 +765,7 @@ p {
 
 .about-info .about-info-content ul li span:first-child {
   color: var(--active-dark-font-color);
-  font-size: 1.2rem;
+  font-size: 1.4rem;
   font-weight: 600;
   font-family: var(--font-family-2);
   letter-spacing: 0.3px;
@@ -772,7 +773,7 @@ p {
 }
 
 .about-info .about-info-content ul li span:last-child {
-  font-size: 1.2rem;
+  font-size: 1.4rem;
   font-weight: 400;
   font-family: var(--font-family-2);
   letter-spacing: 0.3px;

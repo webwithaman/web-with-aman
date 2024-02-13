@@ -837,7 +837,7 @@ p {
   transform: translateY(-50%);
   left: -20rem;
   display: grid;
-  place-content: center;
+  place-items: center;
   font-size: 2rem;
   font-family: var(--font-family-2);
   color: var(--active-pure-color);
@@ -955,7 +955,7 @@ p {
 
 .projects-category-heading i {
   display: grid;
-  place-content: center;
+  place-items: center;
   width: 3rem;
   aspect-ratio: 1;
   border-radius: 50%;

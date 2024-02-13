@@ -2,7 +2,6 @@
 
 Welcome to **web with aman**, a portfolio website that showcases my skills and projects as a web developer. This website is created using HTML, CSS and JS, and it is hosted on netlify. You can visit the website [https://webwithaman.netlify.app].
 
-
 ## Features
 
 - A responsive and modern design that adapts to different screen sizes and devices.
@@ -13,7 +12,6 @@ Welcome to **web with aman**, a portfolio website that showcases my skills and p
 - A projects section that showcases some of my web projects that I have created or contributed to, such as a calculator app, a weather app, a blog app, a chat app, etc. You can also view the source code and live demo of each project by clicking on the respective buttons.
 - A contact section that allows you to get in touch with me via email or social media platforms, such as LinkedIn, Twitter, GitHub, etc.
 
-
 ## How to run
 
 If you want to run this website locally on your machine, you can follow these steps:
@@ -21,7 +19,6 @@ If you want to run this website locally on your machine, you can follow these st
 - Clone this repository to your local machine using `git clone https://github.com/webwithaman/web-with-aman.git`
 - Open the `index.html` file in your browser of choice.
 - Enjoy browsing the website.
-
 
 ## Feedback
 

@@ -460,12 +460,12 @@ p {
 }
 
 .social-media-icons a {
-  width: 3rem;
+  width: 3.5rem;
   aspect-ratio: 1/1;
   border-radius: 50%;
   display: grid;
   place-items: center;
-  font-size: 1.4rem;
+  font-size: 1.7rem;
   color: var(--active-pure-color);
   background-color: var(--active-theme-color);
   box-shadow: 0 0 1.5rem var(--active-two-mode-shadow);

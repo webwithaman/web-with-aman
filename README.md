@@ -1,6 +1,6 @@
 # web-with-aman
 
-Welcome to **web with aman**, a portfolio website that showcases my skills and projects as a web developer. This website is created using HTML, CSS and JS, and it is hosted on netlify. You can visit the website [https://webwithaman.netlify.app].
+Welcome to **web with aman**, a portfolio website that showcases my skills and projects as a web developer. This website is created using HTML, CSS and JS, and it is hosted on netlify. You can visit the website [webwithaman](https://webwithaman.netlify.app).
 
 ## Features
 

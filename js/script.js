@@ -276,3 +276,20 @@ mobileToggle.addEventListener("click", function () {
 closeNav.addEventListener("click", function () {
   navbar.classList.remove("show-navbar");
 });
+
+// Music Functionality
+let musicBtn = document.querySelector(".music");
+let song;
+
+musicBtn.addEventListener("click", function () {
+  if (this.firstElementChild.getAttribute("name") == "play-circle") {
+    let num = Math.floor(Math.random() * 4) + 1;
+    song = new Audio(`assets/music/song-${num}.mp3`);
+    song.play();
+    song.loop = true;
+    this.firstElementChild.setAttribute("name", "pause-circle");
+  } else {
+    song.pause();
+    this.firstElementChild.setAttribute("name", "play-circle");
+  }
+});

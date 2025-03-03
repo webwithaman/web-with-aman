@@ -20,14 +20,16 @@
   }
 }
 
-@media screen and (min-width: 700px) {
-  html {
-    font-size: 14px;
-  }
-
+@media screen and (min-width: 480px) {
   .social-media-icons {
     padding-right: 4rem;
     justify-content: initial;
+  }
+}
+
+@media screen and (min-width: 700px) {
+  html {
+    font-size: 14px;
   }
 }
 

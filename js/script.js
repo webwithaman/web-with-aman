@@ -59,15 +59,14 @@ navLinks.forEach(function (navLink) {
     // Prevent Default Behaiour
     event.preventDefault();
 
-    let navbar = document.querySelector(".aside-nav");
-
-    navbar.classList.remove("show-navbar");
+    document.querySelector(".aside-nav").classList.remove("show-navbar");
 
     if (
       !this.classList.contains("active-nav-link") &&
       !this.classList.contains("close-nav")
     )
-      showPage(this.getAttribute("href"));
+      console.log("true");
+    showPage(this.getAttribute("href"));
   });
 });
 
@@ -83,6 +82,7 @@ function showPage(page) {
   document
     .querySelector(`.aside-nav-links li a[href="${page}"]`)
     .classList.add("active-nav-link");
+    
   document
     .querySelector(`.pages-container section${page}`)
     .classList.add("active-page");
@@ -574,7 +574,6 @@ projectSearchField.addEventListener("input", function (event) {
 });
 
 // Mobile Toggle
-
 let mobileToggle = document.querySelector(".mobile-toggle");
 let navbar = document.querySelector(".aside-nav");
 let closeNav = document.querySelector(".close-nav");

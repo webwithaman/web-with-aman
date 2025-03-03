@@ -1,0 +1,106 @@
+/**********************************************************
+  Media Queries Start
+**********************************************************/
+
+@media screen and (max-width: 300px) {
+  html {
+    font-size: 8px;
+  }
+}
+
+@media screen and (max-width: 250px) {
+  html {
+    font-size: 6px;
+  }
+}
+
+@media screen and (max-width: 180px) {
+  html {
+    font-size: 4px;
+  }
+}
+
+@media screen and (min-width: 700px) {
+  html {
+    font-size: 14px;
+  }
+}
+
+@media screen and (min-width: 900px) {
+  html {
+    font-size: 10px;
+  }
+
+  .aside-nav {
+    width: 30rem;
+    transform: translateX(0);
+  }
+
+  .aside-nav-links li:first-child {
+    display: none;
+  }
+
+  .pages-container {
+    left: 30rem;
+  }
+
+  .social-media-icons {
+    padding-right: 4rem;
+    justify-content: initial;
+  }
+
+  .theme-change-box {
+    top: var(--pad-block);
+  }
+
+  .mobile-toggle {
+    display: none;
+  }
+
+  .hero-container {
+    margin-top: 4rem;
+    width: 100%;
+    min-height: calc(100vh - var(--pad-block) * 2 - 3.8rem);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 5rem;
+  }
+
+  .hero-left {
+    flex-basis: 50%;
+    max-width: 70rem;
+  }
+
+  .hero-right {
+    flex-basis: 50%;
+  }
+
+  .hero-right .hero-img {
+    width: 38rem;
+  }
+
+  .academics-boxes {
+    padding-left: 10rem;
+  }
+
+  .academics-box::before {
+    width: 10rem;
+    left: -10rem;
+    display: revert;
+  }
+
+  .academics-box::after {
+    left: -10rem;
+    display: grid;
+  }
+
+  .project-search-bar {
+    right: var(--pad-inline);
+    left: auto;
+  }
+}
+
+/**********************************************************
+  Media Queries End
+**********************************************************/

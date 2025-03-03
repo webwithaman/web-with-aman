@@ -1,0 +1,80 @@
+⭐ Javascript 
+
+
+🟢 window.open() 
+
+✍ window ka ek method jiska naam hi "open" (window.open) jisse kisi bhi page pr redirect kiya ja sakta hai like anchor tag. Iske sath hi target bhi specify kiya ja sakta hai jaise anchor tag me karte hai _self,_blank,_parent etc...
+
+👉 Example => window.open("https://github.com/WebWithAman","_blank"); - It Will open the Page of Given Url in new window tab.
+
+
+
+🟢 HtmlInputElement.focus() 
+
+✍ HtmlInputElement.focus() method ka use input element me focus karne ke liye hota hai iska matlab hai is method se input field me cursor put kiya ja sakta hai...
+
+👉 Example => Html Code : 
+              <input id="inputfield">
+
+              Javascript code :
+              document.getElementById("inputfield").addEventListener("mouseenter", function() {
+                 this.focus();
+              });
+
+
+🟢 HtmlInputElement.blur() 
+
+✍ HtmlInputElement.blur() method ka use input element me se focus hatane ke liye hota hai iska matlab hai is method se input field me cursor ko hide kiya ja sakta hai...
+
+👉 Example => Html Code : 
+              <input id="inputfield">
+
+              Javascript code :
+              document.getElementById("inputfield").addEventListener("mouseenter", function() {
+                 this.focus();
+              });
+
+               document.getElementById("inputfield").addEventListener("mouseleave", function() {
+                 this.blur();
+              });
+
+
+
+🟢 HtmlInputElement.select() 
+
+✍ HtmlInputElement.select() method ka use input element me likhe content ko select karne karne ke liye hota hai iska matlab hai is method se input field likha sara content apne aap select ho jata hai...
+
+👉 Example => Html Code : 
+              <input id="inputfield">
+              <button id="mybtn"> select </button>
+
+              Javascript code :
+              document.getElementById("mybtn").addEventListener("click", function() {
+                 document.getElementById("inputfiled").select();
+              });
+
+
+🟢 Listen and Deal with Multiple Events Using One Event Listner
+
+
+👉 Example => Html Code : 
+               button id="mybtn"> Submit </button>
+
+               Javascript Code : 
+            
+               const btn = document.getElementById("mybtn");
+               const events = ["click", "mouseout", "mouseover"];
+
+               events.forEach(function(event) {
+                 btn.addEventListener(event, function(event) {
+
+                    if(event.type === "click"){
+                        console.log("click event");
+                    }else if(event.type === "mouseout"){
+                        console.log("mouseout event");
+                    }
+                    else {
+                        console.log("mouseover event");
+                    }
+                 });
+               });

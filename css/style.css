@@ -1,0 +1,1052 @@
+/**********************************************************
+  Add Google Fonts
+**********************************************************/
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&family=Nunito:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,200&family=Poppins:wght@300;400;500;600;700;800&family=Ubuntu:wght@300;400;500;700&display=swap");
+
+/**********************************************************
+  Reset Default Properties Start
+**********************************************************/
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+::-webkit-scrollbar-track {
+  background-color: var(--active-dark-font-color);
+  border-radius: 2.5rem;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: var(--active-theme-color);
+  border-radius: 2.5rem;
+}
+
+html {
+  font-size: 62.5%;
+  /* Now 1rem = 1em = 10px */
+
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+
+body {
+  overflow-x: hidden;
+  font-family: var(--font-family-2);
+}
+
+/**********************************************************
+  Reset Default Properties End
+**********************************************************/
+
+/**********************************************************
+  Variables Start
+**********************************************************/
+:root {
+  /* Theme Colors */
+  --theme-1-color: #18ffff;
+  --theme-2-color: #ff0000;
+  --theme-3-color: #05ff00;
+  --theme-4-color: #0500ff;
+  --theme-5-color: #ff5c00;
+
+  /* Active Theme */
+  --active-theme-color: var(--active-theme, var(--theme-1-color));
+
+  /* Light Mode */
+  --pure-white: #fff;
+  --l-primary-bg: #e1ebee78;
+  --l-secondary-bg: var(--pure-white);
+  --l-dark-font-color: #161617;
+  --l-light-font-color: #414144;
+  --l-one-mode-shadow: #00000014;
+  --l-two-mode-shadow: rgba(0, 0, 0, 0.064);
+  --l-border-color: rgba(128, 128, 128, 0.176);
+
+  /* Dark Mode */
+  --pure-black: #000;
+  --d-secondary-bg: #161617;
+  --d-primary-bg: var(--pure-black);
+  --d-white-font-color: #fff;
+  --d-light-font-color: #e1ebee78;
+  --d-one-mode-shadow: transparent;
+  --d-two-mode-shadow: var(--active-theme-color);
+  --d-border-color: #ada2a2b8;
+
+  /* Theme Fonts */
+  --font-family-1: "Poppins", sans-serif;
+  --font-family-2: "Poppins", sans-serif;
+
+  /* Padding */
+  --pad-inline: 1.8rem;
+  --pad-block: 4.5rem;
+}
+
+/**********************************************************
+  Variables End
+**********************************************************/
+
+/**********************************************************
+  Common Properties to Frequently Used Elements Start
+**********************************************************/
+body {
+  /* Following Properties Will be Inherited By All the Elements */
+
+  /* Active or Default Mode (Dark Mode)  */
+  --active-pure-color: var(--pure-black);
+  --active-primary-bg: var(--d-primary-bg);
+  --active-secondary-bg: var(--d-secondary-bg);
+  --active-dark-font-color: var(--d-white-font-color);
+  --active-light-font-color: var(--d-light-font-color);
+  --active-one-mode-shadow: var(--d-one-mode-shadow);
+  --active-border-color: var(--d-border-color);
+  --active-two-mode-shadow: var(--d-two-mode-shadow);
+}
+
+a {
+  text-decoration: none;
+  display: inline-block;
+  font-family: var(--font-family-2);
+  transition: all 0.3s linear;
+}
+
+li {
+  list-style-type: none;
+  font-family: var(--font-family-2);
+}
+
+button {
+  border: none;
+  cursor: pointer;
+  font-size: 1.5rem;
+  font-weight: 500;
+  letter-spacing: 1px;
+  font-family: var(--font-family-2);
+  transition: all 0.3s linear;
+  background-color: transparent;
+}
+
+input,
+textarea {
+  outline: none;
+}
+
+img {
+  max-width: 100%;
+  width: 100%;
+  display: inline-block;
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--font-family-1);
+  line-height: 1.4;
+  text-transform: capitalize;
+  font-weight: 600;
+}
+
+h1 {
+  letter-spacing: 1.2px;
+  word-spacing: 3px;
+}
+
+p {
+  font-family: var(--font-family-2);
+  line-height: 1.6;
+  font-size: 1.6rem;
+}
+
+/**********************************************************
+  Common Properties to Frequently Used Elements End
+**********************************************************/
+
+/********************************************************************************
+  Actual Document Styling Start
+*********************************************************************************/
+
+/**********************************************************
+  Wrapper Start
+**********************************************************/
+.wrapper {
+  width: 100vw;
+  height: auto;
+}
+
+/**********************************************************
+  Aside Nav Start
+**********************************************************/
+.aside-nav {
+  width: 100%;
+  height: 100vh;
+  background-color: var(--active-secondary-bg);
+  border-right: 0.2rem solid var(--active-border-color);
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 2;
+  transform: translateX(-100%);
+  transition: all 0.4s linear;
+}
+
+.aside-nav.show-navbar {
+  transform: translateX(0rem);
+}
+
+.aside-nav nav {
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden;
+  overflow-y: auto;
+  flex-wrap: nowrap;
+  position: relative;
+  gap: 7rem;
+}
+
+.aside-nav nav::-webkit-scrollbar {
+  width: 0.7rem;
+}
+
+/**********************************************************
+  Logo Start
+**********************************************************/
+.logo-box {
+  position: relative;
+  /* padding: 2rem; */
+  gap: 0.7rem;
+}
+
+.logo-box img {
+  width: 5rem;
+  background-color: var(--active-theme-color);
+  border-radius: 50%;
+}
+
+.logo-box h2 {
+  color: var(--active-dark-font-color);
+  font-size: 2.8rem;
+  text-transform: uppercase;
+  font-weight: 900;
+}
+
+/**********************************************************
+  Aside Nav Links Start
+**********************************************************/
+.aside-nav-links {
+  gap: 1.3rem;
+}
+
+.aside-nav-links li a {
+  width: 15rem;
+  padding: 1.4rem;
+  font-size: 1.6rem;
+  letter-spacing: 0.3px;
+  font-weight: 600;
+  color: var(--active-dark-font-color);
+  border: 1px solid var(--active-border-color);
+  border-left: 0.6rem solid var(--active-dark-font-color);
+  background-color: var(--active-primary-bg);
+  position: relative;
+  z-index: 1;
+}
+
+.aside-nav-links li a::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  background-color: var(--active-theme-color);
+  width: 0;
+  transition: all 0.3s linear;
+  z-index: -1;
+}
+
+@media (hover: hover) {
+  .aside-nav-links li a:hover::before {
+    width: 100%;
+  }
+
+  .aside-nav-links li a.active-nav-link::before {
+    width: 100%;
+  }
+}
+
+.aside-nav-links li a i {
+  padding-right: 1rem;
+}
+
+/**********************************************************
+  Aside Nav Links End
+**********************************************************/
+
+/**********************************************************
+  Aside Nav End
+**********************************************************/
+
+/**********************************************************
+  Pages Container Start 
+**********************************************************/
+.pages-container {
+  background-color: var(--active-primary-bg);
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.pages-container .page {
+  width: 100%;
+  height: 100%;
+  background-color: var(--active-primary-bg);
+  position: absolute;
+  /* top: 0; */
+  left: 0;
+  transform: translateX(100%);
+  transition: all 0.4s linear;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+.pages-container .page.active-page {
+  transform: translateX(0);
+}
+
+.pages-container .page::-webkit-scrollbar {
+  width: 0.7rem;
+}
+
+/**********************************************************
+  Theme Change Box Start
+**********************************************************/
+.theme-change-box {
+  gap: calc(var(--pad-inline) + 5px);
+  position: fixed;
+  z-index: 100;
+  right: 0;
+  top: calc(var(--pad-block) + 5rem);
+  transition: right 0.8s linear;
+}
+
+.theme-change-box.change-right {
+  right: var(--pad-inline);
+}
+
+.theme-change-icons {
+  gap: 1rem;
+  position: relative;
+}
+
+.theme-icon {
+  width: 4rem;
+  aspect-ratio: 1/1;
+  border-radius: 50%;
+  background-color: var(--active-pure-color);
+  color: var(--active-dark-font-color);
+  font-size: 2.1rem;
+  border: 0.1rem solid var(--active-border-color);
+  cursor: pointer;
+}
+
+.mobile-toggle {
+  position: absolute;
+  z-index: 555;
+  top: calc(100% + 0.6rem);
+  font-weight: 600;
+}
+
+.show-theme-colors-icon i {
+  -webkit-animation: animate-colors-show-icon 4s linear infinite;
+  animation: animate-colors-show-icon 4s linear infinite;
+}
+
+/* Keyframes to Animate Theme Colors Show Icon */
+@-webkit-keyframes animate-colors-show-icon {
+  100% {
+    transform: rotate(-360deg);
+  }
+}
+
+@keyframes animate-colors-show-icon {
+  100% {
+    transform: rotate(-360deg);
+  }
+}
+
+.theme-colors-box {
+  max-width: 0;
+  overflow: hidden;
+  transition: all 0.8s linear;
+}
+
+.theme-colors-box > div {
+  border: 0.1rem solid var(--active-border-color);
+  border-radius: 0.8rem;
+  background-color: var(--active-pure-color);
+  padding: 1rem;
+  width: 21rem;
+  height: 100%;
+}
+
+.theme-colors-box h3 {
+  font-size: 1.6rem;
+  color: var(--active-dark-font-color);
+  letter-spacing: 0.3px;
+}
+
+.theme-colors-box .colors {
+  flex-wrap: nowrap;
+}
+
+.theme-colors-box .colors span {
+  width: 3.2rem;
+  aspect-ratio: 1/1;
+  border-radius: 50%;
+  border: 0.2rem solid var(--active-border-color);
+  cursor: pointer;
+}
+
+.theme-colors-box .colors span:nth-child(1) {
+  background-color: var(--theme-1-color);
+}
+
+.theme-colors-box .colors span:nth-child(2) {
+  background-color: var(--theme-2-color);
+}
+
+.theme-colors-box .colors span:nth-child(3) {
+  background-color: var(--theme-3-color);
+}
+
+.theme-colors-box .colors span:nth-child(4) {
+  background-color: var(--theme-4-color);
+}
+
+.theme-colors-box .colors span:nth-child(5) {
+  background-color: var(--theme-5-color);
+}
+
+/**********************************************************
+  Theme Change Box End
+**********************************************************/
+
+/**********************************************************
+  Home Page Start
+**********************************************************/
+
+/**********************************************************
+  Social Media Icons Start
+**********************************************************/
+.social-media-icons {
+  gap: 1.2rem;
+}
+
+.social-media-icons a {
+  width: 3.8rem;
+  aspect-ratio: 1/1;
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+  font-size: 2rem;
+  color: var(--active-pure-color);
+  background-color: var(--active-theme-color);
+  box-shadow: 0 0 1.5rem var(--active-two-mode-shadow);
+  transform: translateY(0);
+}
+
+@media (hover: hover) {
+  .social-media-icons a:hover {
+    transform: translateY(-0.5rem);
+  }
+}
+
+/**********************************************************
+  Social Media Icons End
+**********************************************************/
+
+/**********************************************************
+  Hero Container Start
+**********************************************************/
+.hero-container {
+  margin-top: 4rem;
+  width: 100%;
+  min-height: calc(100vh - var(--pad-block) * 2 - 3.8rem);
+  display: flex;
+  flex-direction: column;
+  gap: 5rem;
+}
+
+/**********************************************************
+  Hero Left Start
+**********************************************************/
+.hero-left {
+  max-width: 70rem;
+}
+
+.hero-left h3 {
+  font-size: 2.2rem;
+  color: var(--active-theme-color);
+  letter-spacing: 1px;
+}
+
+.hero-left h1 {
+  font-size: 7rem;
+  color: var(--active-dark-font-color);
+}
+
+.hero-left h1 span {
+  text-shadow: 0 0 1rem var(--active-two-mode-shadow);
+  display: inline-block;
+  transform: none;
+}
+
+.hero-left h1 span.animate-aman-name {
+  -webkit-animation: animate-aman-name 3s ease-in-out 1;
+  animation: animate-aman-name 3s ease-in-out 1;
+}
+
+/* Keyframes to Animate Aman Name */
+@-webkit-keyframes animate-aman-name {
+  0%,
+  30% {
+    transform: perspective(10px) rotate(-360deg) rotateX(80deg);
+  }
+
+  100% {
+    transform: perspective(0px) rotate(0deg) rotateX(0deg);
+  }
+}
+
+@keyframes animate-aman-name {
+  0%,
+  30% {
+    transform: perspective(10px) rotate(-360deg) rotateX(80deg);
+  }
+
+  100% {
+    transform: perspective(0px) rotate(0deg) rotateX(0deg);
+  }
+}
+
+.hero-left .animate-web-developer {
+  width: 25.7rem;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  word-spacing: 3px;
+  font-size: 3rem;
+  color: transparent;
+  -webkit-text-stroke: 1px var(--active-theme-color);
+  -webkit-background-clip: text;
+  background-clip: text;
+  background-image: linear-gradient(
+    var(--active-theme-color),
+    var(--active-theme-color)
+  );
+  background-repeat: no-repeat;
+  background-size: 25rem;
+  background-position: -25rem;
+  position: relative;
+  -webkit-animation: animate-web-developer 10s linear infinite 1s;
+  animation: animate-web-developer 10s linear infinite 1s;
+}
+
+/* Keyframes to Animate Web Developer */
+@-webkit-keyframes animate-web-developer {
+  0%,
+  50%,
+  100% {
+    background-position: -25rem;
+    text-shadow: 0 0 0 var(--active-pure-color);
+  }
+
+  40%,
+  45%,
+  80%,
+  85% {
+    background-position: 0rem;
+    text-shadow: 0 0 30px var(--active-theme-color);
+  }
+}
+
+@keyframes animate-web-developer {
+  0%,
+  50%,
+  100% {
+    background-position: -25rem;
+    text-shadow: 0 0 0 var(--active-pure-color);
+  }
+
+  40%,
+  45%,
+  80%,
+  85% {
+    background-position: 0rem;
+    text-shadow: 0 0 30px var(--active-theme-color);
+  }
+}
+
+.hero-left .animate-web-developer::before {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 100%;
+  border-right: 2px solid var(--active-theme-color);
+  left: 0;
+  top: 0;
+  -webkit-animation: animate-cursor 10s linear infinite 1s;
+  animation: animate-cursor 10s linear infinite 1s;
+}
+
+/* Keyframes to Animate Cursor On Web Developer */
+@-webkit-keyframes animate-cursor {
+  0%,
+  50%,
+  100% {
+    width: 0;
+  }
+
+  40%,
+  45%,
+  80%,
+  85% {
+    width: 100%;
+  }
+}
+
+@keyframes animate-cursor {
+  0%,
+  50%,
+  100% {
+    width: 0;
+  }
+
+  40%,
+  45%,
+  80%,
+  85% {
+    width: 100%;
+  }
+}
+
+.hero-left p {
+  font-size: 1.6rem;
+  color: var(--active-light-font-color);
+  text-align: justify;
+  margin-top: 1rem;
+}
+
+/**********************************************************
+  Hero Btns Start
+**********************************************************/
+.hero-btn-box {
+  margin-top: 2rem;
+  gap: 1.8rem;
+}
+
+/**********************************************************
+  Hero Left End
+**********************************************************/
+
+/**********************************************************
+  Hero Right Start
+**********************************************************/
+.hero-right .hero-img-box {
+  box-shadow: 0 0 7rem var(--active-two-mode-shadow);
+  background-color: var(--active-theme-color);
+  border-radius: 50%;
+}
+
+.hero-right .hero-img {
+  width: 100%;
+}
+
+/**********************************************************
+  Hero Right End
+**********************************************************/
+
+/**********************************************************
+  Hero Container End
+**********************************************************/
+
+/**********************************************************
+  Home Page End
+**********************************************************/
+
+/**********************************************************
+  About Page Start
+**********************************************************/
+
+/**********************************************************
+  About Intro Start
+**********************************************************/
+.about-intro-heading {
+  margin-bottom: 1rem;
+}
+
+.about-intro p {
+  color: var(--active-light-font-color);
+  margin-bottom: 1.8rem;
+}
+
+/**********************************************************
+  About Intro End
+**********************************************************/
+
+/**********************************************************
+  About Infos Start
+**********************************************************/
+.about-infos-boxes {
+  align-items: flex-start;
+  gap: 1.5rem;
+}
+
+.about-info {
+  border-left: 0.5rem solid var(--active-theme-color);
+  background-color: var(--active-secondary-bg);
+  padding: 1.5rem;
+  flex: 1 1 300px;
+  box-shadow: 0 0 10px var(--active-one-mode-shadow);
+}
+
+.about-info .about-info-header {
+  position: relative;
+}
+
+.about-info .about-info-header h3 {
+  color: var(--active-dark-font-color);
+  font-size: 1.9rem;
+  letter-spacing: 0.6px;
+  word-spacing: 2px;
+}
+
+.about-info .about-info-header .about-info-open-btn {
+  position: absolute;
+  font-size: 1.6rem;
+  color: var(--active-light-font-color);
+  top: 0;
+  right: 0;
+  cursor: pointer;
+  transition: all 0.2s linear;
+}
+
+@media (hover: hover) {
+  .about-info .about-info-header .about-info-open-btn:hover {
+    color: var(--active-dark-font-color);
+  }
+}
+
+.about-info .about-info-content {
+  max-height: 0;
+  overflow: hidden;
+  transition: all 0.3s linear;
+}
+
+.about-info .about-info-content ul {
+  padding-top: 1rem;
+}
+
+.about-info .about-info-content ul li {
+  padding-block: 0.5rem;
+}
+
+.about-info .about-info-content ul li span:first-child {
+  color: var(--active-dark-font-color);
+  font-size: 1.4rem;
+  font-weight: 600;
+  font-family: var(--font-family-2);
+  letter-spacing: 0.3px;
+  margin-right: 0.5rem;
+}
+
+.about-info .about-info-content ul li span:last-child {
+  font-size: 1.4rem;
+  font-weight: 400;
+  font-family: var(--font-family-2);
+  letter-spacing: 0.3px;
+  color: var(--active-light-font-color);
+}
+
+/**********************************************************
+  About Infos End
+**********************************************************/
+
+/**********************************************************
+  Academics Start
+**********************************************************/
+.academics-boxes {
+  padding-left: 0rem;
+  gap: 4rem;
+}
+
+.academics-box {
+  color: var(--active-light-font-color);
+  padding: 2rem;
+  background: var(--active-secondary-bg);
+  position: relative;
+  border-left: 0.5rem solid var(--active-theme-color);
+  box-shadow: 0 0 1rem var(--active-one-mode-shadow);
+}
+
+.academics-box::before {
+  content: "";
+  position: absolute;
+  width: 20rem;
+  height: 0.5rem;
+  background-color: var(--active-theme-color);
+  top: 50%;
+  transform: translateY(-50%);
+  left: -20rem;
+  display: none;
+}
+
+.academics-box::after {
+  content: "1";
+  position: absolute;
+  width: 4rem;
+  height: 4rem;
+  border-radius: 50%;
+  background-color: var(--active-theme-color);
+  top: 50%;
+  transform: translateY(-50%);
+  left: -20rem;
+  display: grid;
+  place-items: center;
+  font-size: 2rem;
+  font-family: var(--font-family-2);
+  color: var(--active-pure-color);
+  font-weight: 600;
+  display: none;
+}
+
+.academics-box:nth-child(1):after {
+  content: "1";
+}
+
+.academics-box:nth-child(2):after {
+  content: "2";
+}
+
+.academics-box:nth-child(3):after {
+  content: "3";
+}
+
+.academics-box .academics-year {
+  color: var(--active-theme-color);
+  font-size: 1.4rem;
+  font-family: var(--font-family-2);
+  font-weight: 600;
+  margin-bottom: 0.9rem;
+}
+
+.academics-box h3 {
+  color: var(--active-dark-font-color);
+  font-size: 1.9rem;
+  margin-bottom: 0.6rem;
+  letter-spacing: 0.4px;
+  word-spacing: 2px;
+}
+
+.academics-box p {
+  color: var(--active-light-font-color);
+}
+
+/**********************************************************
+  Academics End
+**********************************************************/
+
+/**********************************************************
+  About Page End
+**********************************************************/
+
+/**********************************************************
+  Projects Page Start
+**********************************************************/
+
+/**********************************************************
+  Project Search Bar Start
+**********************************************************/
+.project-search-bar {
+  position: absolute;
+  top: calc(var(--pad-block + 5rem));
+  left: var(--pad-inline);
+  background-color: var(--active-theme-color);
+  box-shadow: 0 0 0.5rem var(--active-two-mode-shadow);
+  padding: 1rem 1.2rem;
+  display: flex;
+  align-items: center;
+  border-radius: 3rem;
+  color: var(--pure-black);
+  cursor: pointer;
+}
+
+.project-search-bar input {
+  background-color: transparent;
+  font-size: 1.6rem;
+  border: none;
+  padding-inline: 0;
+  font-family: var(--font-family-2);
+  font-weight: 500;
+  letter-spacing: 0.3px;
+  width: 25rem;
+  transition: all 0.4s linear;
+  max-width: 0;
+}
+
+.project-search-bar input input::placeholder {
+  color: var(--active-secondary-bg);
+}
+
+.project-search-bar:hover > input {
+  max-width: 25rem;
+  padding-inline: 1rem;
+}
+
+.project-search-bar i {
+  font-size: 2.1rem;
+}
+
+/**********************************************************
+  Project Search Bar Start
+**********************************************************/
+
+.all-projects-container {
+  margin-top: 15rem;
+}
+
+.inner-projects-container .projects-category-heading {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  font-size: 2.8rem;
+  color: var(--active-theme-color);
+  margin-bottom: 2.8rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  word-spacing: 3px;
+}
+
+.projects-category-heading i {
+  display: grid;
+  place-items: center;
+  width: 3.5rem;
+  aspect-ratio: 1;
+  border-radius: 50%;
+  background-color: var(--active-theme-color);
+  font-size: 1.8rem;
+  box-shadow: 0 0 3rem var(--active-two-mode-shadow);
+  color: var(--pure-white);
+}
+
+.projects-boxes-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 2.8rem;
+}
+
+.projects-boxes-container .project-box {
+  background-color: var(--active-secondary-bg);
+  padding: 2.8rem;
+  box-shadow: 0 0 1rem var(--active-one-mode-shadow);
+}
+
+.projects-boxes-container .project-box.hide-project {
+  display: none;
+}
+
+.project-box .project-thumbnail-box {
+  width: 100%;
+  aspect-ratio: 4/3;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+  cursor: pointer;
+  overflow: hidden;
+}
+
+.project-box .project-thumbnail-box img {
+  height: 100%;
+}
+
+.project-box .project-thumbnail-box::after {
+  content: "Review Me";
+  position: absolute;
+  color: var(--active-secondary-bg);
+  font-size: 2rem;
+  font-family: var(--font-family-1);
+  letter-spacing: 0.3px;
+  text-transform: uppercase;
+  font-weight: 800;
+  word-spacing: 2px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  padding-bottom: 1rem;
+  left: 0;
+  top: 100%;
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0.151),
+    var(--active-theme-color)
+  );
+  transition: all 0.3s ease-out;
+}
+
+.projects-boxes-container .project-box:hover > .project-thumbnail-box::after {
+  top: 0;
+}
+
+.project-box .project-title {
+  font-size: 2rem;
+  color: var(--active-dark-font-color);
+  margin-block: 1rem 2rem;
+  letter-spacing: 0.4px;
+  word-spacing: 2px;
+}
+
+.project-box .project-view-btns-group {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.project-view-btns-group .project-view-btn {
+  font-size: 1.4rem;
+  font-weight: 600;
+  letter-spacing: 0.6px;
+  color: var(--active-theme-color);
+  text-transform: capitalize;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.project-view-btns-group .project-view-btn i {
+  font-size: 1.1rem;
+}
+
+.more-projects-btn {
+  margin-top: 2.8rem;
+}
+
+/**********************************************************
+  Projects Page End
+**********************************************************/
+
+/**********************************************************
+  Pages Container End 
+**********************************************************/
+
+/***********************************************************************************************
+  Actual Document Styling End
+***********************************************************************************************/

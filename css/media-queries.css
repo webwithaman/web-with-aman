@@ -24,6 +24,11 @@
   html {
     font-size: 14px;
   }
+
+  .social-media-icons {
+    padding-right: 4rem;
+    justify-content: initial;
+  }
 }
 
 @media screen and (min-width: 900px) {

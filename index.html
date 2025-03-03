@@ -8,8 +8,18 @@
     <!-- Title -->
     <title>webwithaman</title>
 
-    <!-- Link Favicon -->
+    <!-- Link Favicon for Icons -->
     <link rel="icon" type="image/png" href="assets/images/my-dp-rounded.png" />
+
+    <!-- Link Ionicons for Icons -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
 
     <!-- Custom External Stylesheets -->
     <link rel="stylesheet" href="css/utils.css" />
@@ -18,20 +28,14 @@
   </head>
 
   <body>
-    <!---------------------------------------------------
-       Wrapper Start
-    ----------------------------------------------------->
-    <div class="wrapper">
-      <!---------------------------------------------------
-         Aside Nav Start
-      ----------------------------------------------------->
+    <!-- Site Wrapper Start -->
+    <div class="site-wrapper">
+      <!-- Aside Nav Start -->
       <aside class="aside-nav">
         <nav
           class="d-flex flex-dir-col align-center padding-inline padding-block"
         >
-          <!---------------------------------------------------
-               Logo 
-            ----------------------------------------------------->
+          <!-- Logo Start -->
           <a
             href="#home-page"
             data-redirect
@@ -40,10 +44,9 @@
             <img src="assets/images/my-dp-png.png" alt="webWithAman-Logo" />
             <h2>Web <span class="theme-text-color">With</span> Aman</h2>
           </a>
+          <!-- Logo End -->
 
-          <!---------------------------------------------------
-                Aside Nav Links Starts
-            ----------------------------------------------------->
+          <!-- Aside Nav Links Starts -->
           <ul class="aside-nav-links d-flex flex-dir-col">
             <li>
               <a class="close-nav" href="#" class="active-nav-link"
@@ -81,26 +84,16 @@
               >
             </li>
           </ul>
-          <!---------------------------------------------------
-                Aside Nav Links End
-            ----------------------------------------------------->
+          <!-- Aside Nav Links End -->
         </nav>
       </aside>
-      <!---------------------------------------------------
-         Aside Nav End
-      ----------------------------------------------------->
+      <!-- Aside Nav End -->
 
-      <!---------------------------------------------------
-         Pages Container Start 
-      ----------------------------------------------------->
+      <!-- Pages Container Start  -->
       <div class="pages-container">
-        <!---------------------------------------------------
-            Theme Change Box
-         ----------------------------------------------------->
+        <!-- Theme Change Box -->
         <div class="theme-change-box d-flex">
-          <!---------------------------------------------------
-               Theme Change Icons
-            ----------------------------------------------------->
+          <!-- Theme Change Icons -->
           <div class="theme-change-icons d-flex flex-dir-col justify-between">
             <span class="show-theme-colors-icon theme-icon content-center"
               ><i class="fa fa-cog" aria-hidden="true"></i
@@ -108,15 +101,18 @@
             <span class="change-mode-icon theme-icon content-center"
               ><i class="fa-solid fa-sun"></i
             ></span>
-            <span
-              class="mobile-toggle change-mode-icon theme-icon content-center"
-              ><i class="fa-solid fa-bars"></i
-            ></span>
+            <div>
+              <span
+                class="mobile-toggle change-mode-icon theme-icon content-center"
+                ><i class="fa-solid fa-bars"></i
+              ></span>
+              <span class="music change-mode-icon theme-icon content-center"
+                ><ion-icon name="play-circle"></ion-icon
+              ></span>
+            </div>
           </div>
 
-          <!---------------------------------------------------
-               Theme Colors Box
-            ----------------------------------------------------->
+          <!-- Theme Colors Box -->
           <div class="theme-colors-box">
             <div class="d-flex flex-dir-col justify-between">
               <h3>Theme Colors</h3>
@@ -130,20 +126,14 @@
             </div>
           </div>
         </div>
-        <!---------------------------------------------------
-            Theme Change Box End
-         ----------------------------------------------------->
+        <!-- Theme Change Box End -->
 
-        <!---------------------------------------------------
-            Home Page Start
-         ----------------------------------------------------->
+        <!-- Home Page Start -->
         <section
           id="home-page"
           class="page padding-inline padding-block active-page"
         >
-          <!---------------------------------------------------
-                Social Media Icons Start
-            ----------------------------------------------------->
+          <!-- Social Media Icons Start -->
           <div class="social-media-icons d-flex align-center justify-between">
             <a href="https://www.facebook.com/webwithaman/" target="_blank">
               <i class="fa-brands fa-facebook-f"></i>
@@ -164,17 +154,11 @@
               <i class="fa fa-github" aria-hidden="true"></i>
             </a>
           </div>
-          <!---------------------------------------------------
-                Social Media Icons End
-            ----------------------------------------------------->
+          <!-- Social Media Icons End -->
 
-          <!---------------------------------------------------
-                Hero Container Start 
-            ----------------------------------------------------->
+          <!-- Hero Container Start  -->
           <div class="hero-container">
-            <!---------------------------------------------------
-                   Hero Left Start
-               ----------------------------------------------------->
+            <!-- Hero Left Start -->
             <div class="hero-left">
               <h3>Hey ! Dear, Welcome...</h3>
               <h1>
@@ -204,16 +188,11 @@
                 >
               </div>
             </div>
-            <!---------------------------------------------------
-                   Hero Left End
-               ----------------------------------------------------->
+            <!-- Hero Left End -->
 
-            <!---------------------------------------------------
-                   Hero Right Start
-               ----------------------------------------------------->
+            <!-- Hero Right Start -->
             <div class="hero-right content-center">
               <figure class="hero-img-box">
-                <!-- <img class="hero-img" src="assets/images/hero-boy.png" alt="animated-boy"> -->
                 <img
                   class="hero-img"
                   src="assets/images/my-dp-png.png"
@@ -221,17 +200,11 @@
                 />
               </figure>
             </div>
-            <!---------------------------------------------------
-                   Hero Right End
-               ----------------------------------------------------->
+            <!-- Hero Right End -->
           </div>
-          <!---------------------------------------------------
-                Hero Container End
-            ----------------------------------------------------->
+          <!-- Hero Container End -->
         </section>
-        <!---------------------------------------------------
-            Home Page End
-         ----------------------------------------------------->
+        <!-- Home Page End -->
 
         <!---------------------------------------------------
             About Page Start
@@ -491,9 +464,7 @@
          Pages Container End 
       ----------------------------------------------------->
     </div>
-    <!---------------------------------------------------
-         Wrapper End
-      ----------------------------------------------------->
+    <!-- Site Wrapper End -->
 
     <!--------------------------------------------------------------------------------
          Javascript Cdns And Files For Icons And Other Sources And External Custom Js Files

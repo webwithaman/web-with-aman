@@ -207,7 +207,7 @@ p {
   overflow-y: auto;
   flex-wrap: nowrap;
   position: relative;
-  gap: 7rem;
+  gap: 6rem;
 }
 
 .aside-nav nav::-webkit-scrollbar {

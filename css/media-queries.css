@@ -59,12 +59,14 @@
   .theme-change-box {
     top: var(--pad-block);
   }
+
   .theme-change-icons {
     gap: 1rem;
   }
 
   .mobile-toggle {
     display: none;
+    top: calc(100% + 1rem);
   }
 
   .hero-container {

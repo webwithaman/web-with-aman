@@ -59,6 +59,9 @@
   .theme-change-box {
     top: var(--pad-block);
   }
+  .theme-change-icons {
+    gap: 1rem;
+  }
 
   .mobile-toggle {
     display: none;

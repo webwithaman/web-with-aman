@@ -537,7 +537,7 @@ p {
 }
 
 .hero-left .animate-web-developer {
-  width: 25.7rem;
+  width: 25.5rem;
   letter-spacing: 1px;
   text-transform: uppercase;
   word-spacing: 3px;
@@ -551,8 +551,8 @@ p {
     var(--active-theme-color)
   );
   background-repeat: no-repeat;
-  background-size: 25rem;
-  background-position: -25rem;
+  background-size: 25.5rem;
+  background-position: -25.5rem;
   position: relative;
   -webkit-animation: animate-web-developer 10s linear infinite 1s;
   animation: animate-web-developer 10s linear infinite 1s;
@@ -563,7 +563,7 @@ p {
   0%,
   50%,
   100% {
-    background-position: -25rem;
+    background-position: -25.5rem;
     text-shadow: 0 0 0 var(--active-pure-color);
   }
 
@@ -580,7 +580,7 @@ p {
   0%,
   50%,
   100% {
-    background-position: -25rem;
+    background-position: -25.5rem;
     text-shadow: 0 0 0 var(--active-pure-color);
   }
 

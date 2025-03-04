@@ -278,7 +278,7 @@ p {
 
 /* Theme Change Box Start */
 .theme-change-box {
-  gap: calc(var(--pad-inline) - 0.2rem);
+  gap: calc(var(--pad-inline) - 0.1rem);
   position: fixed;
   z-index: 100;
   right: 0;

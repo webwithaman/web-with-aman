@@ -20,6 +20,12 @@
   }
 }
 
+@media screen and (max-width: 150px) {
+  html {
+    font-size: 2.5px;
+  }
+}
+
 @media screen and (min-width: 480px) {
   .social-media-icons {
     padding-right: 4rem;
@@ -29,11 +35,15 @@
 
 @media screen and (min-width: 700px) {
   html {
-    font-size: 14px;
+    font-size: 12px;
   }
 }
 
 @media screen and (min-width: 900px) {
+  html {
+    font-size: 10px;
+  }
+
   ::-webkit-scrollbar {
     width: 0.8rem;
   }
@@ -44,10 +54,6 @@
 
   ::-webkit-scrollbar-thumb {
     background-color: var(--active-theme-color);
-  }
-
-  html {
-    font-size: 10px;
   }
 
   .aside-nav {
@@ -123,6 +129,30 @@
   .project-search-bar {
     right: var(--pad-inline);
     left: auto;
+  }
+}
+
+@media screen and (min-width: 1800px) {
+  html {
+    font-size: 14px;
+  }
+}
+
+@media screen and (min-width: 2000px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+@media screen and (min-width: 2300px) {
+  html {
+    font-size: 18px;
+  }
+}
+
+@media screen and (min-width: 2600px) {
+  html {
+    font-size: 20px;
   }
 }
 

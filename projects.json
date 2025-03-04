@@ -5,19 +5,19 @@
       {
         "projectThumbnailSrc": "assets/images/html-projects-thumbnails/thumbnail-1.jpg",
         "projectTitle": "simple portfolio website",
-        "viewProjectLiveUrl": "https://amansimpleportfolio.netlify.app",
+        "viewProjectLiveUrl": "https://webwithman-portfolio-using-only-html.netlify.app/",
         "viewProjectCodeUrl": "https://github.com/webwithaman/portfolio-using-only-html"
       },
       {
         "projectThumbnailSrc": "assets/images/html-projects-thumbnails/thumbnail-2.png",
         "projectTitle": "simple blogs website",
-        "viewProjectLiveUrl": "https://blogwebsitebyaman.netlify.app",
+        "viewProjectLiveUrl": "https://blog-website-only-html-webwithaman.netlify.app/",
         "viewProjectCodeUrl": "https://github.com/webwithaman/blog-website-using-only-html"
       },
       {
         "projectThumbnailSrc": "assets/images/html-projects-thumbnails/thumbnail-3.jpg",
         "projectTitle": "simple music website",
-        "viewProjectLiveUrl": "https://musicwebsitebyaman.netlify.app",
+        "viewProjectLiveUrl": "https://music-website-using-only-html-by-aman.netlify.app/",
         "viewProjectCodeUrl": "https://github.com/webwithaman/music-website-using-only-html"
       },
       {

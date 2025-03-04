@@ -941,6 +941,17 @@ span.switch-song-text {
 }
 /* Projects Page End */
 
+/* Page Under Development */
+.page-under-development h2 {
+  font-size: 2rem;
+  color: var(--active-theme-color);
+}
+
+.page-under-development p {
+  color: var(--active-light-font-color);
+  margin-top: 1.8rem;
+}
+
 /* Pages Container End  */
 
 /* Actual Document Styling End */

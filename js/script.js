@@ -51,7 +51,9 @@ function randomBetweenMtoN(lowerNum, upperNum) {
 }
 
 // Get Nav Links
-const navLinks = document.querySelectorAll(".aside-nav-links li a");
+let navLinks = document.querySelectorAll(".aside-nav-links li a");
+navLinks = Array.from(navLinks);
+navLinks.shift();
 
 // Add Event Listner On Nav Links to Display Appropriate Page
 navLinks.forEach(function (navLink) {
@@ -61,10 +63,7 @@ navLinks.forEach(function (navLink) {
 
     document.querySelector(".aside-nav").classList.remove("show-navbar");
 
-    if (
-      !this.classList.contains("active-nav-link") &&
-      !this.classList.contains("close-nav")
-    )
+    if (!this.classList.contains("active-nav-link"))
       showPage(this.getAttribute("href"));
   });
 });
@@ -278,7 +277,6 @@ closeNav.addEventListener("click", function () {
 });
 
 // Music Functionality
-
 const songsList = [
   {
     songUrl: "assets/music/song-3.mp3",

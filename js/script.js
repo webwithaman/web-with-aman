@@ -278,18 +278,69 @@ closeNav.addEventListener("click", function () {
 });
 
 // Music Functionality
+
+const songsList = [
+  {
+    songUrl: "assets/music/song-3.mp3",
+  },
+  {
+    songUrl: "assets/music/song-7.mp3",
+  },
+  {
+    songUrl: "assets/music/song-1.mp3",
+  },
+  {
+    songUrl: "assets/music/song-5.mp3",
+  },
+  {
+    songUrl: "assets/music/song-2.mp3",
+  },
+  {
+    songUrl: "assets/music/song-8.mp3",
+  },
+  {
+    songUrl: "assets/music/song-4.mp3",
+  },
+  {
+    songUrl: "assets/music/song-6.mp3",
+  },
+];
+
 let musicBtn = document.querySelector(".music");
-let song;
+let previousSongBtn = document.querySelector(".previous-song");
+let nextSongBtn = document.querySelector(".next-song");
+let song,
+  songIndex = 0,
+  isMusicOn = false;
 
 musicBtn.addEventListener("click", function () {
   if (this.firstElementChild.getAttribute("name") == "play-circle") {
-    let num = Math.floor(Math.random() * 4) + 1;
-    song = new Audio(`assets/music/song-${num}.mp3`);
+    isMusicOn = true;
+    song = new Audio(`${songsList[songIndex].songUrl}`);
     song.play();
     song.loop = true;
     this.firstElementChild.setAttribute("name", "pause-circle");
   } else {
+    isMusicOn = false;
     song.pause();
     this.firstElementChild.setAttribute("name", "play-circle");
   }
 });
+
+previousSongBtn.onclick = function () {
+  if (isMusicOn) {
+    song.pause();
+    songIndex = songIndex ? --songIndex : songsList.length - 1;
+    song = new Audio(`${songsList[songIndex].songUrl}`);
+    song.play();
+  }
+};
+
+nextSongBtn.onclick = function () {
+  if (isMusicOn) {
+    song.pause();
+    songIndex = songIndex == songsList.length - 1 ? 0 : ++songIndex;
+    song = new Audio(`${songsList[songIndex].songUrl}`);
+    song.play();
+  }
+};

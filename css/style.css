@@ -317,7 +317,7 @@ p {
 }
 
 .theme-change-icons > div .mobile-toggle {
-  margin-bottom: 1.2rem;
+  /* margin-top: 1.2rem; */
 }
 
 .show-theme-colors-icon i {
@@ -389,6 +389,21 @@ p {
 
 .theme-colors-box .colors span:nth-child(5) {
   background-color: var(--theme-5-color);
+}
+
+.music-controls span {
+  width: 3.2rem;
+  color: var(--active-dark-font-color);
+}
+
+span.switch-song-text {
+  width: fit-content;
+  color: var(--active-dark-font-color);
+  font-size: 1.3rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  white-space: nowrap;
+  letter-spacing: 0.3px;
 }
 /* Theme Change Box End */
 

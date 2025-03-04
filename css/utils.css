@@ -1,7 +1,3 @@
-/**********************************************************
-  Utility Classes Start
-**********************************************************/
-
 .d-flex {
   display: flex;
   flex-wrap: wrap;
@@ -123,13 +119,9 @@
   margin-bottom: 8rem;
 }
 
-/**********************************************************
-    Frequently Used Components In This Website Start
-**********************************************************/
+/* Frequently Used Components In This Website Start */
 
-/**********************************************************
-    Pages Header
-**********************************************************/
+/* Pages Header */
 .page-header {
   margin-bottom: 6rem;
 }
@@ -160,11 +152,4 @@
   width: 5rem;
   bottom: -1.2rem;
 }
-
-/**********************************************************
-    Frequently Used Components In This Website End
-**********************************************************/
-
-/**********************************************************
-    Utility Classes End
-**********************************************************/
+/* Frequently Used Components In This Website End */

@@ -1,7 +1,7 @@
 /* Add Google Fonts */
 @import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&family=Nunito:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,200&family=Poppins:wght@300;400;500;600;700;800&family=Ubuntu:wght@300;400;500;700&display=swap");
 
-/* Variables Start */
+/* CSS Variables Start */
 :root {
   /* Theme Colors */
   --theme-1-color: #18ffff;
@@ -41,7 +41,7 @@
   --pad-inline: 1.8rem;
   --pad-block: 4.5rem;
 }
-/* Variables End */
+/* CSS Variables End */
 
 /* Reset Default Properties Start */
 *,
@@ -52,24 +52,11 @@
   box-sizing: border-box;
 }
 
-/* ::-webkit-scrollbar {
-    width: 0.8rem;
-  }
-
-  ::-webkit-scrollbar-track {
-    background-color: var(--active-dark-font-color);
-  }
-
-  ::-webkit-scrollbar-thumb {
-    background-color: var(--active-theme-color);
-  } */
-
 html {
   font-size: 62.5%;
   /* Now 1rem = 1em = 10px */
 
   overflow-x: hidden;
-  scroll-behavior: smooth;
 }
 
 body {
@@ -620,13 +607,9 @@ span.switch-song-text {
 
 /* Home Page End */
 
-/**********************************************************
-  About Page Start
-**********************************************************/
+/* About Page Start */
 
-/**********************************************************
-  About Intro Start
-**********************************************************/
+/* About Intro Start */
 .about-intro-heading {
   margin-bottom: 1rem;
 }
@@ -635,14 +618,9 @@ span.switch-song-text {
   color: var(--active-light-font-color);
   margin-bottom: 1.8rem;
 }
+/* About Intro End */
 
-/**********************************************************
-  About Intro End
-**********************************************************/
-
-/**********************************************************
-  About Infos Start
-**********************************************************/
+/* About Infos Start */
 .about-infos-boxes {
   align-items: flex-start;
   gap: 1.5rem;
@@ -713,14 +691,9 @@ span.switch-song-text {
   letter-spacing: 0.3px;
   color: var(--active-light-font-color);
 }
+/* About Infos End */
 
-/**********************************************************
-  About Infos End
-**********************************************************/
-
-/**********************************************************
-  Academics Start
-**********************************************************/
+/* Academics Start */
 .academics-boxes {
   padding-left: 0rem;
   gap: 4rem;
@@ -767,15 +740,15 @@ span.switch-song-text {
 }
 
 .academics-box:nth-child(1):after {
-  content: "1";
+  content: "💻";
 }
 
 .academics-box:nth-child(2):after {
-  content: "2";
+  content: "📚";
 }
 
 .academics-box:nth-child(3):after {
-  content: "3";
+  content: "📖";
 }
 
 .academics-box .academics-year {
@@ -797,22 +770,13 @@ span.switch-song-text {
 .academics-box p {
   color: var(--active-light-font-color);
 }
+/* Academics End */
 
-/**********************************************************
-  Academics End
-**********************************************************/
+/* About Page End */
 
-/**********************************************************
-  About Page End
-**********************************************************/
+/* Projects Page Start */
 
-/**********************************************************
-  Projects Page Start
-**********************************************************/
-
-/**********************************************************
-  Project Search Bar Start
-**********************************************************/
+/* Project Search Bar Start */
 .project-search-bar {
   position: absolute;
   top: calc(var(--pad-block + 5rem));
@@ -852,10 +816,7 @@ span.switch-song-text {
 .project-search-bar i {
   font-size: 2.1rem;
 }
-
-/**********************************************************
-  Project Search Bar Start
-**********************************************************/
+/* Project Search Bar Start */
 
 .all-projects-container {
   margin-top: 15rem;
@@ -978,15 +939,8 @@ span.switch-song-text {
 .more-projects-btn {
   margin-top: 2.8rem;
 }
+/* Projects Page End */
 
-/**********************************************************
-  Projects Page End
-**********************************************************/
+/* Pages Container End  */
 
-/**********************************************************
-  Pages Container End 
-**********************************************************/
-
-/***********************************************************************************************
-  Actual Document Styling End
-***********************************************************************************************/
+/* Actual Document Styling End */

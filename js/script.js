@@ -307,14 +307,13 @@ const songsList = [
 let musicBtn = document.querySelector(".music");
 let previousSongBtn = document.querySelector(".previous-song");
 let nextSongBtn = document.querySelector(".next-song");
-let song,
-  songIndex = 0,
-  isMusicOn = false;
+let songIndex = 0,
+  isMusicOn = false,
+  song = new Audio(`${songsList[songIndex].songUrl}`);
 
 musicBtn.addEventListener("click", function () {
-  if (this.firstElementChild.getAttribute("name") == "play-circle") {
+  if (!isMusicOn) {
     isMusicOn = true;
-    song = new Audio(`${songsList[songIndex].songUrl}`);
     song.play();
     song.loop = true;
     this.firstElementChild.setAttribute("name", "pause-circle");

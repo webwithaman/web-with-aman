@@ -304,14 +304,14 @@ const songsList = [
   },
 ];
 
-let musicBtn = document.querySelector(".music");
-let previousSongBtn = document.querySelector(".previous-song");
-let nextSongBtn = document.querySelector(".next-song");
+let musicPlayIcon = document.querySelector(".music-play-icon");
+let previousSongIcon = document.querySelector(".previous-song-icon");
+let nextSongIcon = document.querySelector(".next-song-icon");
 let songIndex = 0,
   isMusicOn = false,
   song = new Audio(`${songsList[songIndex].songUrl}`);
 
-musicBtn.addEventListener("click", function () {
+musicPlayIcon.addEventListener("click", function () {
   if (!isMusicOn) {
     isMusicOn = true;
     song.play();
@@ -324,7 +324,7 @@ musicBtn.addEventListener("click", function () {
   }
 });
 
-previousSongBtn.onclick = function () {
+previousSongIcon.onclick = function () {
   if (isMusicOn) {
     song.pause();
     songIndex = songIndex ? --songIndex : songsList.length - 1;
@@ -333,7 +333,7 @@ previousSongBtn.onclick = function () {
   }
 };
 
-nextSongBtn.onclick = function () {
+nextSongIcon.onclick = function () {
   if (isMusicOn) {
     song.pause();
     songIndex = songIndex == songsList.length - 1 ? 0 : ++songIndex;

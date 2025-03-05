@@ -292,14 +292,14 @@ p {
   cursor: pointer;
 }
 
-.theme-change-icons > div {
+.music-play-icon {
+  font-size: 2.5rem;
+}
+
+.mobile-toggle {
   position: absolute;
   z-index: 555;
   top: calc(100% + 1.2rem);
-}
-
-.theme-change-icons > div .theme-icon ion-icon {
-  font-size: 2.5rem;
 }
 
 .show-theme-colors-icon i {
@@ -378,7 +378,7 @@ p {
   color: var(--active-dark-font-color);
 }
 
-span.switch-song-text {
+.music-controls span.switch-song-text {
   width: fit-content;
   color: var(--active-dark-font-color);
   font-size: 1.3rem;

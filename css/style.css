@@ -483,6 +483,7 @@ span.switch-song-text {
   letter-spacing: 1px;
   text-transform: uppercase;
   word-spacing: 3px;
+  white-space: nowrap;
   font-size: 3rem;
   color: transparent;
   -webkit-text-stroke: 1px var(--active-theme-color);

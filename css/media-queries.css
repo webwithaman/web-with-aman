@@ -34,6 +34,10 @@
 }
 
 @media screen and (min-width: 700px) {
+  :root {
+    --pad-block: 4.5rem;
+  }
+
   html {
     font-size: 12px;
   }
@@ -67,6 +71,10 @@
 
   .pages-container {
     left: 30rem;
+  }
+
+  #home-page {
+    padding-bottom: 0;
   }
 
   .social-media-icons {
@@ -105,10 +113,6 @@
 
   .hero-right {
     flex-basis: 50%;
-  }
-
-  .hero-right .hero-img {
-    width: 38rem;
   }
 
   .academics-boxes {

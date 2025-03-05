@@ -39,7 +39,7 @@
 
   /* Padding */
   --pad-inline: 1.8rem;
-  --pad-block: 4.5rem;
+  --pad-block: 1.8rem;
 }
 /* CSS Variables End */
 
@@ -395,6 +395,7 @@ span.switch-song-text {
 /* Social Media Icons Start */
 .social-media-icons {
   gap: 1.2rem;
+  flex-wrap: nowrap;
 }
 
 .social-media-icons a {
@@ -600,6 +601,7 @@ span.switch-song-text {
 
 .hero-right .hero-img {
   width: 100%;
+  max-width: 38rem;
 }
 /* Hero Right End */
 

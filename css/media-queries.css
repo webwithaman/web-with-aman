@@ -74,9 +74,6 @@
 
   .hero-container {
     margin-top: 4rem;
-    width: 100%;
-    min-height: calc(100vh - var(--pad-block) * 2 - 3.8rem);
-    display: flex;
     flex-direction: row;
     align-items: center;
     gap: 5rem;
@@ -84,7 +81,6 @@
 
   .hero-left {
     flex-basis: 50%;
-    max-width: 70rem;
   }
 
   .hero-right {
@@ -104,11 +100,6 @@
   .academics-box::after {
     left: -10rem;
     display: grid;
-  }
-
-  .project-search-bar {
-    right: var(--pad-inline);
-    left: auto;
   }
 }
 

@@ -1,3 +1,4 @@
+// Create a CSS Variable in the Scope of Root Element (html)
 document.documentElement.style.setProperty(
   "--designationWidth",
   getComputedStyle(document.querySelector(".designation")).width

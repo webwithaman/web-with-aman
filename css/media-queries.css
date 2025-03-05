@@ -136,6 +136,21 @@
   }
 }
 
+@media screen and (min-width: 1300px) {
+  .academics-boxes {
+    padding-left: 20rem;
+  }
+
+  .academics-box::before {
+    width: 20rem;
+    left: -20rem;
+  }
+
+  .academics-box::after {
+    left: -20rem;
+  }
+}
+
 @media screen and (max-width: 900px) and (max-height: 500px) {
   .aside-nav nav {
     justify-content: initial;

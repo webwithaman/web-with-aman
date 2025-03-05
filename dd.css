@@ -1,0 +1,57 @@
+.hero-left .designation {
+  width: var(--designationWidth);
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  word-spacing: 3px;
+  white-space: nowrap;
+  font-size: 3rem;
+  color: transparent;
+  -webkit-text-stroke: 1px var(--active-theme-color);
+  -webkit-background-clip: text;
+  background-clip: text;
+  background-image: linear-gradient(
+    var(--active-theme-color),
+    var(--active-theme-color)
+  );
+  background-repeat: no-repeat;
+  background-size: var(--designationWidth);
+  background-position: -var(--designationWidth);
+  position: relative;
+  -webkit-animation: designation 10s linear infinite 1s;
+  animation: designation 10s linear infinite 1s;
+}
+
+/* Keyframes to Animate Web Developer */
+@-webkit-keyframes designation {
+  0%,
+  50%,
+  100% {
+    background-position: -var(--designationWidth);
+    text-shadow: 0 0 0 var(--active-pure-color);
+  }
+
+  40%,
+  45%,
+  80%,
+  85% {
+    background-position: 0rem;
+    text-shadow: 0 0 30px var(--active-theme-color);
+  }
+}
+
+@keyframes designation {
+  0%,
+  50%,
+  100% {
+    background-position: -var(--designationWidth);
+    text-shadow: 0 0 0 var(--active-pure-color);
+  }
+
+  40%,
+  45%,
+  80%,
+  85% {
+    background-position: 0rem;
+    text-shadow: 0 0 30px var(--active-theme-color);
+  }
+}

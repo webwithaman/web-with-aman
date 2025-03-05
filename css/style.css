@@ -39,6 +39,10 @@
   /* Padding */
   --pad-inline: 1.8rem;
   --pad-block: 1.8rem;
+
+  --n: 40rem;
+
+  /* --designationWidth: 10rem; */
 }
 /* CSS Variables End */
 
@@ -477,13 +481,14 @@ p {
   }
 }
 
-.hero-left .animate-web-developer {
-  width: 25.5rem;
+.hero-left .designation {
+  display: inline-block;
+  width: var(--designationWidth);
   letter-spacing: 1px;
   text-transform: uppercase;
   word-spacing: 3px;
   white-space: nowrap;
-  font-size: 3rem;
+  font-size: 2.5rem;
   color: transparent;
   -webkit-text-stroke: 1px var(--active-theme-color);
   -webkit-background-clip: text;
@@ -493,19 +498,19 @@ p {
     var(--active-theme-color)
   );
   background-repeat: no-repeat;
-  background-size: 25.5rem;
-  background-position: -25.5rem;
+  background-size: var(--designationWidth);
+  background-position: calc(-1 * var(--designationWidth));
   position: relative;
-  -webkit-animation: animate-web-developer 10s linear infinite 1s;
-  animation: animate-web-developer 10s linear infinite 1s;
+  -webkit-animation: designation 10s linear infinite 1s;
+  animation: designation 10s linear infinite 1s;
 }
 
 /* Keyframes to Animate Web Developer */
-@-webkit-keyframes animate-web-developer {
+@-webkit-keyframes designation {
   0%,
   50%,
   100% {
-    background-position: -25.5rem;
+    background-position: calc(-1 * var(--designationWidth));
     text-shadow: 0 0 0 var(--active-pure-color);
   }
 
@@ -518,11 +523,11 @@ p {
   }
 }
 
-@keyframes animate-web-developer {
+@keyframes designation {
   0%,
   50%,
   100% {
-    background-position: -25.5rem;
+    background-position: calc(-1 * var(--designationWidth));
     text-shadow: 0 0 0 var(--active-pure-color);
   }
 
@@ -535,7 +540,7 @@ p {
   }
 }
 
-.hero-left .animate-web-developer::before {
+.hero-left .designation::before {
   content: "";
   position: absolute;
   width: 0;

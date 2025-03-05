@@ -1,3 +1,8 @@
+document.documentElement.style.setProperty(
+  "--designationWidth",
+  getComputedStyle(document.querySelector(".designation")).width
+);
+
 //////////////////////////// Js For All Pages ////////////////////////////
 
 // Get Icons For Change Themes And Mode
